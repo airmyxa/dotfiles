@@ -85,20 +85,20 @@ return {
     end,
   },
 
- --  {
- --    "nvim-neo-tree/neo-tree.nvim",
- --    opts = {
- --            folder_closed = "",
- --      icon = {
- --            folder_open = "",
- --            folder_empty = "󰜌",
- --            -- The next two settings are only a fallback, if you use nvim-web-devicons and configure default icons there
- --            -- then these will never be used.
- --            default = "*",
- --            highlight = "NeoTreeFileIcon"
- --      },
- --    }
- --  },
+  {
+    "nvim-neo-tree/neo-tree.nvim",
+    opts = {
+            folder_closed = "",
+      icon = {
+            folder_open = "",
+            folder_empty = "󰜌",
+            -- The next two settings are only a fallback, if you use nvim-web-devicons and configure default icons there
+            -- then these will never be used.
+            default = "*",
+            highlight = "NeoTreeFileIcon"
+      },
+    }
+  },
 
   {
     "simrat39/rust-tools.nvim",
@@ -118,6 +118,20 @@ return {
       },
     },
   },
+
+  -- LSP keymaps
+{
+  "neovim/nvim-lspconfig",
+  init = function()
+    local keys = require("lazyvim.plugins.lsp.keymaps").get()
+    -- change a keymap
+    -- keys[#keys + 1] = { "K", "<cmd>echo 'hello'<cr>" }
+    -- disable a keymap
+    keys[#keys + 1] = { "K", false }
+    -- add a keymap
+    -- keys[#keys + 1] = { "H", "<cmd>echo 'hello'<cr>" }
+  end,
+},
 
   -- then: setup supertab in cmp
   {
