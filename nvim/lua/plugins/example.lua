@@ -150,6 +150,11 @@ return {
     opts = function(_, opts)
       local cmp = require("cmp")
       return {
+        snippet = {
+    expand = function(args)
+        vim.fn["vsnip#anonymous"](args.body)
+    end,
+  },
         mapping = {
           -- Add tab support
           ["<S-Tab>"] = cmp.mapping.select_prev_item(),

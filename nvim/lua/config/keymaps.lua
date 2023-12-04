@@ -2,5 +2,5 @@
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
 
-vim.keymap.set("n", "<S-j>", "5<C-e>")
-vim.keymap.set("n", "<S-k>", "5<C-y>")
+vim.keymap.set("n", "<S-j>", "5<C-e>5j")
+vim.keymap.set("n", "<S-k>", "5<C-y>5k")
