@@ -68,6 +68,7 @@ return {
         "tsx",
         "vim",
         "yaml",
+        "cpp"
       },
     },
   },
