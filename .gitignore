@@ -1,2 +1,6 @@
 tmux/plugins/
 bat/themes/
+zed/.*
+zed/embeddings/
+zed/prompts/
+!.gitignore
