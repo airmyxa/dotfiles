@@ -1,8 +1,7 @@
 return {
-  {
+{
     "neovim/nvim-lspconfig",
   },
-
   -- then: setup supertab in cmp
   {
     "hrsh7th/nvim-cmp",

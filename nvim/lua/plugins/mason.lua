@@ -15,6 +15,7 @@ return {
         "cpptools",
         "flake8",
         "go-debug-adapter",
+	"delve",
         "gofumpt",
         "goimports",
         "goimports-reviser",

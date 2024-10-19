@@ -1,6 +1,7 @@
 return {
-  {
-    "simrat39/rust-tools.nvim",
-    opts = {},
-  },
+	{}
+  -- {
+  --   "simrat39/rust-tools.nvim",
+  --   opts = {},
+  -- },
 }
