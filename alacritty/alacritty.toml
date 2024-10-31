@@ -1,4 +1,4 @@
-[shell]
+[terminal.shell]
 program = "/opt/homebrew/bin/fish"
 
 [font]
@@ -62,3 +62,5 @@ option_as_alt = "OnlyLeft"
 [colors.primary]
 background = "#1d1f21"
 foreground = "#c5c8c6"
+
+[terminal]
