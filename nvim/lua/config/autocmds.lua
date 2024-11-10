@@ -18,3 +18,5 @@ if is_stable_version then
     end,
   })
 end
+
+vim.cmd.colorscheme("catppuccin")

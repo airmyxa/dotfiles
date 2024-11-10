@@ -5,6 +5,9 @@ return {
       ensure_installed = {
         "rust",
         "go",
+        "gomod",
+        "gowork",
+        "gosum",
         "bash",
         "json",
         "lua",
