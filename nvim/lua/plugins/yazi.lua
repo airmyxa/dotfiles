@@ -5,7 +5,6 @@ return {
   },
   event = "VeryLazy",
   keys = {
-    -- 👇 in this section, choose your own keymappings!
     {
       "<leader>yy",
       function()
