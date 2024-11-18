@@ -3,4 +3,5 @@ bat/themes/
 zed/.*
 zed/embeddings/
 zed/prompts/
+raycast/
 !.gitignore
