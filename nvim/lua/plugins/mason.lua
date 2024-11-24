@@ -55,7 +55,7 @@ return {
         function()
           local Terminal = require("toggleterm.terminal").Terminal
           local gitui = Terminal:new({
-            cmd = "gitui",
+            cmd = "ssh-add ~/.ssh/id_ed25519 && gitui",
             hidden = true,
             direction = "float",
           })
