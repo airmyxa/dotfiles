@@ -9,7 +9,7 @@ return {
       ring = { storage = "sqlite" },
       highlight = {
         on_put = false,
-        on_yank = ,
+        on_yank = false,
         timer = 50,
       },
     },

@@ -1,4 +1,4 @@
-export PATH=$HOME/bin:/usr/local/bin:/opt/homebrew/bin:~/.cargo/bin:/usr/bin:/bin:/sbin:~/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:/opt/homebrew/bin:$HOME/.cargo/bin:/usr/bin:/bin:/sbin:$HOME/bin:$PATH
 export BAT_THEME="Catppuccin Mocha"
 
 if status is-interactive
