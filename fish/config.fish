@@ -1,5 +1,10 @@
-export PATH=$HOME/bin:/usr/local/bin:$HOME/.cargo/bin:/usr/bin:/bin:/sbin:$HOME/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$HOME/.cargo/bin:/usr/bin:/bin:/sbin:$HOME/go/bin:$HOME/.local/share/nvm/v22.14.0/bin:$PATH:
 export BAT_THEME="Catppuccin Mocha"
+export MANPAGER="nvim +Man!"
+export GOPATH=$HOME/go
+
+# aliases
+alias --save obsidian="flatpak run md.obsidian.Obsidian --ozone-platform-hint=auto &> /dev/null &; echo"
 
 if status is-interactive
     # Commands to run in interactive sessions can go here

@@ -21,10 +21,10 @@ set $menu wmenu-run
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+output * bg ~/Pictures/background.jpg fill
 # output eDP-1 adaptive_sync on -- doesn't work
 output eDP-1 mode 2880x1800@60Hz
-# output eDP-1 subpixel rgb
+output eDP-1 subpixel vrgb
 # output eDP-1 scale 1
 #
 # Example configuration:
@@ -55,6 +55,10 @@ output eDP-1 mode 2880x1800@60Hz
        natural_scroll enabled
        #middle_emulation enabled
    }
+	 input "type:pointer" {
+			natural_scroll enabled
+	 }
+
 # input * xkb_layout us
 	input "type:keyboard" {
 			xkb_layout "us,ru"
