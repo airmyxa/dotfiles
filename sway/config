@@ -236,6 +236,8 @@ exec_always {
 # Mouse
 seat seat0 xcursor_theme Bibata-Modern-Classic 16
 exec pipewire
+exec swaync
+bindsym $mod+Shift+n exec swaync-client -t -sw
 
 #
 # Status Bar:

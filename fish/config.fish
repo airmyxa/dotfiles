@@ -3,9 +3,6 @@ export BAT_THEME="Catppuccin Mocha"
 export MANPAGER="nvim +Man!"
 export GOPATH=$HOME/go
 
-# aliases
-alias --save obsidian="flatpak run md.obsidian.Obsidian --ozone-platform-hint=auto &> /dev/null &; echo"
-
 if status is-interactive
     # Commands to run in interactive sessions can go here
     starship init fish | source
