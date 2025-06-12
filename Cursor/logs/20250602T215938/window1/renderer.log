@@ -1,0 +1,463 @@
+2025-06-02 21:59:39.786 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-02 21:59:39.786 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-02 21:59:39.786 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-02 21:59:39.786 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-02 21:59:39.787 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-02 21:59:39.787 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-02 21:59:39.787 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-02 21:59:39.787 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-02 21:59:39.787 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-02 21:59:39.807 [warning] Missing property "modes" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-06-02 21:59:39.807 [warning] Missing property "modes2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-06-02 21:59:39.808 [warning] Missing property "modes3" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-06-02 21:59:39.808 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-06-02 21:59:39.808 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-06-02 21:59:39.986 [info] Started local extension host with pid 30447.
+2025-06-02 21:59:40.719 [error] [Extension Host] (node:30447) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-06-02 21:59:42.434 [error] Bundled Anysphere extension 'anysphere.remote-ssh' not found
+2025-06-02 21:59:42.435 [error] Bundled Anysphere extension 'anysphere.remote-wsl' not found
+2025-06-02 21:59:42.435 [error] Bundled Anysphere extension 'anysphere.remote-containers' not found
+2025-06-02 21:59:43.101 [info] [perf] Render performance baseline is 13ms
+2025-06-02 22:05:18.873 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-02 22:05:18.873 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-02 22:05:18.873 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-02 22:05:18.873 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-02 22:05:18.873 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-02 22:05:18.874 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-02 22:05:18.874 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-02 22:05:18.874 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-02 22:05:18.874 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-02 22:05:18.906 [warning] Missing property "modes" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-06-02 22:05:18.907 [warning] Missing property "modes2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-06-02 22:05:18.907 [warning] Missing property "modes3" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-06-02 22:05:18.907 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-06-02 22:05:18.907 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-06-02 22:05:18.908 [warning] Missing property "shouldHideWarning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-06-02 22:05:18.908 [warning] Missing property "persistentChatMetadata" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-06-02 22:05:18.908 [warning] Missing property "aiPanePosition" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-06-02 22:05:18.908 [warning] Missing property "shouldRerankByDefault" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-06-02 22:05:18.909 [warning] Missing property "indexingData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-06-02 22:05:18.909 [warning] Missing property "composerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-06-02 22:05:18.909 [warning] Missing property "isCursorPredictionOutOfRangeIndicatorMinimized2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-06-02 22:05:18.909 [warning] Missing property "needsComposerInitialOpening" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-06-02 22:05:18.909 [warning] Missing property "approvedProjectMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-06-02 22:05:18.909 [warning] Missing property "disabledMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-06-02 22:05:18.909 [warning] Missing property "eligibleForSnippetLearning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-06-02 22:05:18.909 [warning] Missing property "isRcpServerEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-06-02 22:05:19.336 [info] Started local extension host with pid 32693.
+2025-06-02 22:05:20.220 [error] [Extension Host] (node:32693) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-06-02 22:05:20.220 [warning] No search provider registered for scheme: file, waiting
+2025-06-02 22:05:21.003 [error] [Extension Host] failed to get symbolic ref Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1293375)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async Rtt.$getDefaultBranch (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56076)
+2025-06-02 22:05:21.149 [error] [Extension Host] failed to get default branch from git config Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1294514)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async Rtt.$getDefaultBranch (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56076)
+2025-06-02 22:05:21.472 [error] [Extension Host] failed to get symbolic ref Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1293375)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-02 22:05:21.524 [error] [Extension Host] failed to get default branch from git config Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1294514)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-02 22:05:21.668 [error] Bundled Anysphere extension 'anysphere.remote-ssh' not found
+2025-06-02 22:05:21.669 [error] Bundled Anysphere extension 'anysphere.remote-wsl' not found
+2025-06-02 22:05:21.669 [error] Bundled Anysphere extension 'anysphere.remote-containers' not found
+2025-06-02 22:05:22.358 [info] [perf] Render performance baseline is 13ms
+2025-06-02 22:10:19.911 [error] [Extension Host] failed to get symbolic ref Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1293375)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-02 22:10:20.070 [error] [Extension Host] failed to get default branch from git config Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1294514)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-02 22:15:19.899 [error] [Extension Host] failed to get symbolic ref Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1293375)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-02 22:15:20.014 [error] [Extension Host] failed to get default branch from git config Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1294514)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-03 06:40:28.943 [error] [unknown] Network timeout: ConnectError: [unknown] Network timeout
+    at t (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2771:205877)
+    at async Object.getTeams (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async egt.getTeams (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:203605)
+    at async egt.refreshMembershipType (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:196912) [unknown] Network timeout
+2025-06-03 06:40:57.137 [error] [unknown] Network timeout: ConnectError: [unknown] Network timeout
+    at t (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2771:205877)
+    at async Object.availableModels (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async P6i.keepCppModelStateUpdated (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5315:11905) [unknown] Network timeout
+2025-06-03 06:41:13.603 [error] [Extension Host] failed to get symbolic ref Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1293375)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-03 06:41:13.659 [error] [Extension Host] failed to get default branch from git config Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1294514)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-03 06:41:22.127 [error] [unknown] Network timeout: ConnectError: [unknown] Network timeout
+    at t (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2771:205877)
+    at async Object.availableModels (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async P6i.keepCppModelStateUpdated (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5315:11905) [unknown] Network timeout
+2025-06-03 06:41:23.745 [error] [unknown] Network timeout: ConnectError: [unknown] Network timeout
+    at t (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2771:205877)
+    at async Object.getDefaultModelNudgeData (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async cti.performDefaultModelRequest (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:650:14290)
+    at async Promise.all (index 1)
+    at async uii.withSemaphore (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:713:59302) [unknown] Network timeout
+2025-06-03 06:41:23.938 [error] [unknown] Network timeout: ConnectError: [unknown] Network timeout
+    at t (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2771:205877)
+    at async Object.getTeams (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async egt.getTeams (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:203605)
+    at async egt.refreshMembershipType (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:196912) [unknown] Network timeout
+2025-06-03 06:41:52.129 [error] [unknown] Network timeout: ConnectError: [unknown] Network timeout
+    at t (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2771:205877)
+    at async Object.availableModels (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async P6i.keepCppModelStateUpdated (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5315:11905) [unknown] Network timeout
+2025-06-03 06:42:23.937 [error] [unknown] Network timeout: ConnectError: [unknown] Network timeout
+    at t (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2771:205877)
+    at async Object.getTeams (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async egt.getTeams (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:203605)
+    at async egt.refreshMembershipType (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:196912) [unknown] Network timeout
+2025-06-03 06:42:27.131 [error] [unknown] Network timeout: ConnectError: [unknown] Network timeout
+    at t (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2771:205877)
+    at async Object.availableModels (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async P6i.keepCppModelStateUpdated (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5315:11905) [unknown] Network timeout
+2025-06-03 06:43:27.136 [error] [unknown] Network timeout: ConnectError: [unknown] Network timeout
+    at t (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2771:205877)
+    at async Object.availableModels (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async P6i.keepCppModelStateUpdated (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5315:11905) [unknown] Network timeout
+2025-06-03 06:43:32.794 [error] [network] #4: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-06-03 06:43:32.794 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-06-03 06:43:57.134 [error] [unknown] Network timeout: ConnectError: [unknown] Network timeout
+    at t (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2771:205877)
+    at async Object.availableModels (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async P6i.keepCppModelStateUpdated (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5315:11905) [unknown] Network timeout
+2025-06-03 06:44:23.012 [error] [unknown] Network timeout: ConnectError: [unknown] Network timeout
+    at t (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2771:205877)
+    at async Object.availableModels (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async P6i.keepCppModelStateUpdated (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5315:11905) [unknown] Network timeout
+2025-06-03 06:44:58.811 [error] [unavailable]: ConnectError: [unavailable]
+    at t (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2771:205877)
+    at async Object.availableModels (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async P6i.keepCppModelStateUpdated (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5315:11905) [unavailable]
+2025-06-03 06:46:13.599 [error] [Extension Host] failed to get symbolic ref Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1293375)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-03 06:46:13.657 [error] [Extension Host] failed to get default branch from git config Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1294514)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-03 06:51:13.609 [error] [Extension Host] failed to get symbolic ref Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1293375)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-03 06:51:13.691 [error] [Extension Host] failed to get default branch from git config Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1294514)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-03 06:56:13.599 [error] [Extension Host] failed to get symbolic ref Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1293375)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-03 06:56:13.681 [error] [Extension Host] failed to get default branch from git config Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1294514)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-03 07:01:13.599 [error] [Extension Host] failed to get symbolic ref Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1293375)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-03 07:01:13.659 [error] [Extension Host] failed to get default branch from git config Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1294514)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-03 07:06:13.599 [error] [Extension Host] failed to get symbolic ref Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1293375)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-03 07:06:13.656 [error] [Extension Host] failed to get default branch from git config Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1294514)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-03 07:11:13.600 [error] [Extension Host] failed to get symbolic ref Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1293375)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-03 07:11:13.658 [error] [Extension Host] failed to get default branch from git config Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1294514)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-03 07:16:13.600 [error] [Extension Host] failed to get symbolic ref Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1293375)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-03 07:16:13.657 [error] [Extension Host] failed to get default branch from git config Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1294514)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-03 07:21:13.599 [error] [Extension Host] failed to get symbolic ref Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1293375)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-03 07:21:13.657 [error] [Extension Host] failed to get default branch from git config Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1294514)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-03 07:23:12.141 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2771:205877)
+    at async Object.availableModels (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async P6i.keepCppModelStateUpdated (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5315:11905) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-06-03 07:23:13.949 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2771:205877)
+    at async Object.getTeams (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async egt.getTeams (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:203605)
+    at async egt.refreshMembershipType (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:196912) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-06-03 08:24:00.598 [error] [network] #12: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-06-03 08:24:00.598 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-06-03 08:26:39.755 [error] [Extension Host] failed to get symbolic ref Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1293375)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-03 08:26:39.885 [error] [Extension Host] failed to get default branch from git config Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1294514)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-03 08:31:40.643 [error] [Extension Host] failed to get symbolic ref Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1293375)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-03 08:31:40.862 [error] [Extension Host] failed to get default branch from git config Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1294514)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-03 08:36:28.905 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2771:205877)
+    at async Object.availableModels (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async P6i.keepCppModelStateUpdated (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5315:11905) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-06-03 08:36:30.714 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2771:205877)
+    at async Object.getTeams (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async egt.getTeams (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:203605)
+    at async egt.refreshMembershipType (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:196912) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-06-04 22:17:34.822 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2771:205877)
+    at async Object.availableModels (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async P6i.keepCppModelStateUpdated (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5315:11905) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-06-04 22:20:06.303 [error] [Extension Host] failed to get symbolic ref Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1293375)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-04 22:20:06.441 [error] [Extension Host] failed to get default branch from git config Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1294514)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-04 22:25:06.304 [error] [Extension Host] failed to get symbolic ref Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1293375)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-04 22:25:06.438 [error] [Extension Host] failed to get default branch from git config Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1294514)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-04 22:30:07.134 [error] [Extension Host] failed to get symbolic ref Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1293375)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-04 22:30:07.268 [error] [Extension Host] failed to get default branch from git config Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1294514)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-04 22:35:07.133 [error] [Extension Host] failed to get symbolic ref Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1293375)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-04 22:35:07.265 [error] [Extension Host] failed to get default branch from git config Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1294514)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-05 09:07:43.817 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2771:205877)
+    at async Object.availableModels (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async P6i.keepCppModelStateUpdated (vscode-file://vscode-app/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5315:11905) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-06-05 09:07:45.296 [error] [Extension Host] failed to get symbolic ref Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1293375)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-05 09:07:45.436 [error] [Extension Host] failed to get default branch from git config Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1294514)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.areFilesCheckedInToRemote (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1316291)
+	at async Rtt.$areFilesCheckedInToRemote (file:///tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56525)
+2025-06-05 09:08:29.552 [error] [UtilityProcessWorker]: terminated unexpectedly with code 2, signal: unknown
+2025-06-05 09:08:29.554 [error] [File Watcher (universal)] restarting watcher after unexpected error: terminated by itself unexpectedly with code 2, signal: unknown (ETERM)

@@ -1,0 +1,12 @@
+2025-06-11 07:25:08.780 [info] Using repo backend url https://repo42.cursor.sh
+2025-06-11 07:25:13.199 [info] Git graph is disabled. shouldIndex: true isEnabled: false
+2025-06-11 07:25:15.323 [info] Using repo backend url https://repo42.cursor.sh
+2025-06-11 07:25:15.323 [info] Git graph is disabled. shouldIndex: true isEnabled: false
+2025-06-11 10:00:57.126 [error] Failed to check if git graph is enabled [unavailable] read ETIMEDOUT
+2025-06-11 10:00:57.126 [error] Failed to check if git graph is enabled [unavailable] read ETIMEDOUT
+2025-06-11 10:00:57.126 [error] Failed to check if git graph is enabled [unavailable] read ETIMEDOUT
+2025-06-11 10:00:57.126 [error] Failed to check if git graph is enabled [unavailable] read ETIMEDOUT
+2025-06-12 06:49:49.653 [error] Failed to check if git graph is enabled [unavailable] read ETIMEDOUT
+2025-06-12 06:49:49.653 [error] Failed to check if git graph is enabled [unavailable] read ETIMEDOUT
+2025-06-12 06:49:49.653 [error] Failed to check if git graph is enabled [unavailable] read ETIMEDOUT
+2025-06-12 06:49:49.653 [error] Failed to check if git graph is enabled [unavailable] read ETIMEDOUT

@@ -1,0 +1,54 @@
+2025-06-12 13:03:02.878 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-12 13:03:02.878 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-12 13:03:02.878 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-12 13:03:02.878 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-12 13:03:02.878 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-12 13:03:02.879 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-12 13:03:02.879 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-12 13:03:02.879 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-12 13:03:02.879 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-12 13:03:02.899 [warning] Missing property "modes" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-06-12 13:03:02.899 [warning] Missing property "modes2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-06-12 13:03:02.900 [warning] Missing property "modes3" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-06-12 13:03:02.900 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-06-12 13:03:02.900 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-06-12 13:03:03.249 [info] Started local extension host with pid 7171.
+2025-06-12 13:03:03.965 [warning] No search provider registered for scheme: file, waiting
+2025-06-12 13:03:04.282 [error] [Extension Host] (node:7171) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-06-12 13:03:05.716 [error] Bundled Anysphere extension 'anysphere.remote-ssh' not found
+2025-06-12 13:03:05.716 [error] Bundled Anysphere extension 'anysphere.remote-wsl' not found
+2025-06-12 13:03:05.716 [error] Bundled Anysphere extension 'anysphere.remote-containers' not found
+2025-06-12 13:03:08.976 [info] [perf] Render performance baseline is 31ms
+2025-06-12 13:31:47.530 [error] Model is disposed!: Error: Model is disposed!
+    at JI.nb (vscode-file://vscode-app/tmp/.mount_CursorMtBnpv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:281:257)
+    at JI.getVersionId (vscode-file://vscode-app/tmp/.mount_CursorMtBnpv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:283:2456)
+    at P6i.qc (vscode-file://vscode-app/tmp/.mount_CursorMtBnpv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5331:14970)
+    at async P6i.formatDiffHistory (vscode-file://vscode-app/tmp/.mount_CursorMtBnpv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5331:14480)
+    at async P6i.fireCppSuggestionDebouncedDiffHistory (vscode-file://vscode-app/tmp/.mount_CursorMtBnpv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5319:2359)
+    at async P6i.fireOnCacheMiss (vscode-file://vscode-app/tmp/.mount_CursorMtBnpv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5315:28485)
+    at async P6i.continueModelChangeListener (vscode-file://vscode-app/tmp/.mount_CursorMtBnpv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5317:1093) Model is disposed!
+2025-06-12 13:38:31.649 [error] Error: The editor could not be opened because the file was not found.
+    at pRt.gc (vscode-file://vscode-app/tmp/.mount_CursorMtBnpv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4368:26718)
+    at async pRt.setInput (vscode-file://vscode-app/tmp/.mount_CursorMtBnpv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4368:25874)
+    at async Roi.U (vscode-file://vscode-app/tmp/.mount_CursorMtBnpv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:798:20107)
+    at async Roi.M (vscode-file://vscode-app/tmp/.mount_CursorMtBnpv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:798:18658)
+    at async Roi.openEditor (vscode-file://vscode-app/tmp/.mount_CursorMtBnpv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:798:17738)
+    at async vscode-file://vscode-app/tmp/.mount_CursorMtBnpv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:910:23616
+    at async Pwi.M (vscode-file://vscode-app/tmp/.mount_CursorMtBnpv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3272:29447)
+    at async Pwi.openCodeEditor (vscode-file://vscode-app/tmp/.mount_CursorMtBnpv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3272:20682)
+    at async ZSi.open (vscode-file://vscode-app/tmp/.mount_CursorMtBnpv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3520:701)
+    at async e1i.open (vscode-file://vscode-app/tmp/.mount_CursorMtBnpv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3520:1740)
+2025-06-12 13:41:27.175 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-06-12 13:41:27.175 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: crashReporting.enabled, aicontext.personalContext, testRunner.config
+2025-06-12 13:41:27.177 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-06-12 13:48:52.032 [error] Cannot read properties of undefined (reading 'dimensions'): TypeError: Cannot read properties of undefined (reading 'dimensions')
+    at get dimensions (vscode-file://vscode-app/tmp/.mount_CursorMtBnpv/usr/share/cursor/resources/app/node_modules/@xterm/xterm/lib/xterm.js:1:107399)
+    at u.scrollLines (vscode-file://vscode-app/tmp/.mount_CursorMtBnpv/usr/share/cursor/resources/app/node_modules/@xterm/xterm/lib/xterm.js:1:50958)
+    at x.scrollLines (vscode-file://vscode-app/tmp/.mount_CursorMtBnpv/usr/share/cursor/resources/app/node_modules/@xterm/xterm/lib/xterm.js:1:27874)
+    at x.scrollToBottom (vscode-file://vscode-app/tmp/.mount_CursorMtBnpv/usr/share/cursor/resources/app/node_modules/@xterm/xterm/lib/xterm.js:1:28146)
+    at u.scrollToBottom (vscode-file://vscode-app/tmp/.mount_CursorMtBnpv/usr/share/cursor/resources/app/node_modules/@xterm/xterm/lib/xterm.js:1:483918)
+    at gY.scrollToBottom (vscode-file://vscode-app/tmp/.mount_CursorMtBnpv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2600:13024)
+    at h_.sendText (vscode-file://vscode-app/tmp/.mount_CursorMtBnpv/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2620:9385) Cannot read properties of undefined (reading 'dimensions')
+2025-06-12 13:49:56.059 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-06-12 13:49:56.062 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings

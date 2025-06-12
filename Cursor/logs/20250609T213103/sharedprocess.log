@@ -1,0 +1,26 @@
+2025-06-11 07:14:14.176 [info] Getting Manifest... ms-azuretools.vscode-docker
+2025-06-11 07:14:15.899 [info] Installing extension: ms-azuretools.vscode-docker {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/airmyxa/.cursor/extensions/extensions.json","path":"/home/airmyxa/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.50.7","date":"2025-05-24T18:26:35.462Z","vscodeVersion":"1.96.2"}}
+2025-06-11 07:14:16.836 [info] Getting Manifest... ms-azuretools.vscode-containers
+2025-06-11 07:14:18.704 [info] Installing extension: ms-azuretools.vscode-containers {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/airmyxa/.cursor/extensions/extensions.json","path":"/home/airmyxa/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.50.7","date":"2025-05-24T18:26:35.462Z","vscodeVersion":"1.96.2"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-06-11 07:14:18.707 [info] Started downloading extension: ms-azuretools.vscode-docker 2.0.0 file:///home/airmyxa/.config/Cursor/CachedExtensionVSIXs/cursor-ms-azuretools.vscode-docker-2.0.0
+2025-06-11 07:14:18.708 [info] Started downloading extension: ms-azuretools.vscode-containers 2.0.3 file:///home/airmyxa/.config/Cursor/CachedExtensionVSIXs/cursor-ms-azuretools.vscode-containers-2.0.3
+2025-06-11 07:14:19.361 [info] Extracted extension to file:///home/airmyxa/.cursor/extensions/ms-azuretools.vscode-docker-2.0.0: ms-azuretools.vscode-docker
+2025-06-11 07:14:19.364 [info] Renamed to /home/airmyxa/.cursor/extensions/ms-azuretools.vscode-docker-2.0.0
+2025-06-11 07:14:19.447 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/airmyxa/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/airmyxa/.cursor/extensions/extensions.json.vsctmp'
+    at ky.create (file:///tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:45:40451)
+    at As (file:///tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:45:40558)
+    at ao.ib (file:///tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:93:23014)
+    at ao.stat (file:///tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:93:16246)
+    at async hu.stat (file:///tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:92:3701)
+    at async ru.Ab (file:///tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:68123)
+2025-06-11 07:14:19.585 [info] Extracted extension to file:///home/airmyxa/.cursor/extensions/ms-azuretools.vscode-containers-2.0.3: ms-azuretools.vscode-containers
+2025-06-11 07:14:19.593 [info] Renamed to /home/airmyxa/.cursor/extensions/ms-azuretools.vscode-containers-2.0.3
+2025-06-11 07:14:19.607 [info] Extension installed successfully: ms-azuretools.vscode-docker vscode-userdata:/home/airmyxa/.cursor/extensions/extensions.json
+2025-06-11 07:14:19.607 [info] Extension installed successfully: ms-azuretools.vscode-containers vscode-userdata:/home/airmyxa/.cursor/extensions/extensions.json
+2025-06-11 07:14:19.676 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/airmyxa/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/airmyxa/.cursor/extensions/extensions.json.vsctmp'
+    at ky.create (file:///tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:45:40451)
+    at As (file:///tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:45:40558)
+    at ao.ib (file:///tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:93:23014)
+    at ao.stat (file:///tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:93:16246)
+    at async hu.stat (file:///tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:92:3701)
+    at async ru.Ab (file:///tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:68123)

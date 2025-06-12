@@ -1,0 +1,309 @@
+2025-06-09 21:31:11.563 [error] Failed to check if file sync is enabled for user {}
+2025-06-09 21:31:11.563 [error] Failed to fetch fsConfig File sync is disabled
+2025-06-09 21:31:11.563 [error] Failed to fetch fsConfig File sync is disabled
+2025-06-09 21:31:11.664 [info] [registerEventListeners] Registering event listeners
+2025-06-09 21:31:13.198 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-09 21:31:13.360 [info] Fetched fsConfig in 161.0347269999993ms
+2025-06-09 21:31:13.360 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-09 21:31:13.411 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-09 21:31:13.970 [info] Fetched fsConfig in 558.6761810000007ms
+2025-06-09 21:31:13.970 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-09 21:31:13.971 [info] File sync enabled status: true
+2025-06-09 21:31:13.971 [info] Starting sync of visible tabs
+2025-06-09 21:31:13.971 [info] Synced all visible tabs in 0.11573600000065198ms
+2025-06-09 21:31:14.243 [info] Starting sync of visible tabs
+2025-06-09 21:31:14.243 [info] Synced all visible tabs in 0.2606980000000476ms
+2025-06-09 21:31:14.410 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-09 21:31:14.574 [info] Fetched fsConfig in 163.29749800000081ms
+2025-06-09 21:31:14.574 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-09 21:31:17.308 [info] Uploaded file api/grpc/config_grpc.pb.go modelVersion=1 in 335.6603190000005ms
+2025-06-09 21:31:17.309 [info] Handled visible editors change in 531.7857760000006ms
+2025-06-09 21:31:24.682 [info] Handled visible editors change in 0.24746299999969779ms
+2025-06-09 21:31:25.089 [info] Uploaded file cmd/server/main.go modelVersion=1 in 230.22074500000053ms
+2025-06-09 21:31:25.089 [info] Handled visible editors change in 353.475292000001ms
+2025-06-09 21:35:48.607 [info] Uploaded file internal/db/provider.go modelVersion=4 in 471.2651809999952ms
+2025-06-09 21:35:48.608 [info] Uploaded file internal/db/provider.go modelVersion=2 in 503.6391779999831ms
+2025-06-09 21:35:48.609 [info] Uploaded file internal/db/provider.go modelVersion=2 in 492.8129530000151ms
+2025-06-09 21:35:48.609 [info] Uploaded file internal/db/provider.go modelVersion=4 in 473.79045299999416ms
+2025-06-09 21:36:01.982 [info] Uploaded file internal/config/provider.go modelVersion=4 in 192.24359099997673ms
+2025-06-09 21:36:01.983 [info] Uploaded file internal/config/provider.go modelVersion=4 in 193.16525399999227ms
+2025-06-09 21:36:01.983 [info] Uploaded file internal/config/provider.go modelVersion=4 in 194.39567499997793ms
+2025-06-09 21:36:01.983 [info] Uploaded file internal/config/provider.go modelVersion=4 in 197.38378199998988ms
+2025-06-09 21:36:14.895 [info] Uploaded file internal/di/container.go modelVersion=2 in 173.1754840000067ms
+2025-06-09 21:36:14.897 [info] Uploaded file internal/di/container.go modelVersion=2 in 178.43724300002214ms
+2025-06-09 21:36:14.929 [info] Uploaded file internal/di/container.go modelVersion=4 in 162.62205100001302ms
+2025-06-09 21:36:14.929 [info] Uploaded file internal/di/container.go modelVersion=4 in 162.40846000000602ms
+2025-06-09 21:36:34.559 [info] Uploaded file internal/di/server.go modelVersion=2 in 166.26034300000174ms
+2025-06-09 21:36:34.563 [info] Uploaded file internal/di/server.go modelVersion=2 in 169.3039540000027ms
+2025-06-09 21:36:34.589 [info] Uploaded file internal/di/server.go modelVersion=4 in 163.2439819999854ms
+2025-06-09 21:36:34.591 [info] Uploaded file internal/di/server.go modelVersion=4 in 164.05916599999182ms
+2025-06-09 21:36:51.702 [info] Synced file internal/di/container.go modelVersion=6 in 262.4764880000148ms
+2025-06-09 21:36:52.977 [info] Synced file internal/di/container.go modelVersion=11 in 316.9187909999746ms
+2025-06-09 21:37:04.600 [info] Uploaded file cmd/server/main.go modelVersion=3 in 168.20478700002423ms
+2025-06-09 21:37:04.604 [info] Uploaded file cmd/server/main.go modelVersion=3 in 169.064544999972ms
+2025-06-09 21:37:04.605 [info] Uploaded file cmd/server/main.go modelVersion=3 in 161.92705900000874ms
+2025-06-09 21:37:05.673 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-09 21:37:05.878 [info] Fetched fsConfig in 204.94860499998322ms
+2025-06-09 21:37:05.878 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-09 21:37:05.879 [info] File sync enabled status: true
+2025-06-09 21:37:05.879 [info] Starting sync of visible tabs
+2025-06-09 21:37:05.879 [info] Synced all visible tabs in 0.11747000005561858ms
+2025-06-09 21:37:15.687 [info] Uploaded file internal/db/db.go modelVersion=2 in 157.59856500005117ms
+2025-06-09 21:37:15.700 [info] Uploaded file internal/db/db.go modelVersion=2 in 169.70637499995064ms
+2025-06-09 21:37:24.690 [info] Synced file internal/db/db.go modelVersion=4 in 253.07823199999984ms
+2025-06-09 21:37:25.987 [info] Synced file internal/db/db.go modelVersion=10 in 166.9189630000037ms
+2025-06-09 21:46:54.447 [info] Uploaded file internal/database/provider.go modelVersion=2 in 570.7344099999173ms
+2025-06-09 21:46:54.447 [info] Uploaded file internal/database/provider.go modelVersion=2 in 585.6152749999892ms
+2025-06-09 21:46:54.449 [info] Uploaded file internal/database/provider.go modelVersion=4 in 544.2195009998977ms
+2025-06-09 21:46:54.486 [info] Uploaded file internal/database/provider.go modelVersion=4 in 580.5379710000707ms
+2025-06-09 21:47:07.981 [info] Uploaded file internal/server/http.go modelVersion=2 in 160.7459389999276ms
+2025-06-09 21:47:07.981 [info] Uploaded file internal/server/http.go modelVersion=2 in 159.66802299988922ms
+2025-06-09 21:47:08.028 [info] Uploaded file internal/server/http.go modelVersion=4 in 158.63119500002358ms
+2025-06-09 21:47:08.031 [info] Uploaded file internal/server/http.go modelVersion=4 in 160.25749500002712ms
+2025-06-09 21:47:24.978 [info] Uploaded file internal/server/grpc.go modelVersion=4 in 161.09644399990793ms
+2025-06-09 21:47:24.980 [info] Uploaded file internal/server/grpc.go modelVersion=4 in 161.09736600006ms
+2025-06-09 21:47:24.994 [info] Uploaded file internal/server/grpc.go modelVersion=4 in 156.84116800001357ms
+2025-06-09 21:47:25.001 [info] Uploaded file internal/server/grpc.go modelVersion=4 in 162.03473800001666ms
+2025-06-09 21:47:42.785 [info] Uploaded file internal/core/di/container.go modelVersion=2 in 359.1791750000557ms
+2025-06-09 21:47:42.785 [info] Uploaded file internal/core/di/container.go modelVersion=2 in 357.30315699998755ms
+2025-06-09 21:47:42.785 [info] Uploaded file internal/core/di/container.go modelVersion=4 in 327.77221899991855ms
+2025-06-09 21:47:42.785 [info] Uploaded file internal/core/di/container.go modelVersion=4 in 326.99101900006644ms
+2025-06-09 21:47:56.802 [info] Uploaded file cmd/server/main.go modelVersion=5 in 161.5097559998976ms
+2025-06-09 21:47:56.802 [info] Uploaded file cmd/server/main.go modelVersion=5 in 160.84462300001178ms
+2025-06-09 21:47:56.807 [info] Uploaded file cmd/server/main.go modelVersion=5 in 163.47615299990866ms
+2025-06-09 21:47:58.212 [info] Synced file cmd/server/main.go modelVersion=10 in 163.14118599996436ms
+2025-06-09 21:48:09.981 [info] Uploaded file internal/config/provider.go modelVersion=6 in 256.1315329999197ms
+2025-06-09 21:48:09.981 [info] Uploaded file internal/config/provider.go modelVersion=6 in 254.04402999999002ms
+2025-06-09 21:48:09.982 [info] Uploaded file internal/config/provider.go modelVersion=6 in 255.08964500005823ms
+2025-06-09 21:48:11.220 [info] Synced file internal/config/provider.go modelVersion=9 in 160.09331799997017ms
+2025-06-09 21:49:00.020 [info] Uploaded file internal/db/db.go modelVersion=2 in 355.556731000077ms
+2025-06-09 21:49:00.021 [info] Uploaded file internal/db/db.go modelVersion=2 in 343.50158999999985ms
+2025-06-09 21:49:00.021 [info] Uploaded file internal/db/db.go modelVersion=2 in 342.04891400015913ms
+2025-06-09 21:49:00.021 [info] Uploaded file internal/db/db.go modelVersion=2 in 355.3488620000426ms
+2025-06-09 21:56:29.030 [info] Uploaded file internal/db/provider.go modelVersion=2 in 600.7957449997775ms
+2025-06-09 21:56:29.030 [info] Uploaded file internal/db/provider.go modelVersion=2 in 589.6524629998021ms
+2025-06-09 21:56:29.031 [info] Uploaded file internal/db/provider.go modelVersion=2 in 571.1192199999932ms
+2025-06-09 21:56:29.031 [info] Uploaded file internal/db/provider.go modelVersion=2 in 570.2416169999633ms
+2025-06-09 21:56:36.197 [info] Uploaded file internal/di/container.go modelVersion=2 in 304.94173400010914ms
+2025-06-09 21:56:36.197 [info] Uploaded file internal/di/container.go modelVersion=2 in 298.35227000014856ms
+2025-06-09 21:56:36.197 [info] Uploaded file internal/di/container.go modelVersion=2 in 306.933083999902ms
+2025-06-09 21:56:36.198 [info] Uploaded file internal/di/container.go modelVersion=2 in 299.5560429999605ms
+2025-06-09 21:56:44.797 [info] Uploaded file internal/di/server.go modelVersion=2 in 178.0618090000935ms
+2025-06-09 21:56:44.798 [info] Uploaded file internal/di/server.go modelVersion=2 in 171.94628199981526ms
+2025-06-09 21:56:44.798 [info] Uploaded file internal/di/server.go modelVersion=2 in 173.43264899984933ms
+2025-06-09 21:56:44.854 [info] Uploaded file internal/di/server.go modelVersion=2 in 232.5422269999981ms
+2025-06-09 21:57:32.375 [info] Handled visible editors change in 0.2067370000295341ms
+2025-06-09 21:57:32.721 [info] Uploaded file internal/config/model.go modelVersion=1 in 230.02189400000498ms
+2025-06-09 21:57:32.721 [info] Handled visible editors change in 292.7355239999015ms
+2025-06-09 21:57:35.599 [info] Handled visible editors change in 0.06549900001846254ms
+2025-06-09 21:57:35.845 [info] Uploaded file internal/config/provider.go modelVersion=9 in 171.7436110000126ms
+2025-06-09 21:57:35.845 [info] Handled visible editors change in 231.24002799997106ms
+2025-06-09 21:57:37.715 [info] Handled visible editors change in 0.12123199994675815ms
+2025-06-09 21:57:37.730 [info] Handled visible editors change in 0.3370760001707822ms
+2025-06-09 21:57:42.373 [info] Handled visible editors change in 0.06651200004853308ms
+2025-06-09 21:57:42.754 [info] Uploaded file internal/config/repo.go modelVersion=1 in 306.91342000011355ms
+2025-06-09 21:57:42.754 [info] Handled visible editors change in 355.705983000109ms
+2025-06-09 21:57:43.464 [info] Handled visible editors change in 0.06413699989207089ms
+2025-06-09 21:57:43.778 [info] Uploaded file internal/config/service.go modelVersion=1 in 236.15680700005032ms
+2025-06-09 21:57:43.778 [info] Handled visible editors change in 281.2098119999282ms
+2025-06-09 21:58:14.695 [info] Handled visible editors change in 0.16593700018711388ms
+2025-06-09 21:58:14.709 [info] Handled visible editors change in 0.44297900004312396ms
+2025-06-09 22:08:01.373 [info] Handled visible editors change in 0.06750599993392825ms
+2025-06-09 22:08:02.280 [info] Uploaded file cmd/server/main.go modelVersion=10 in 781.1755389999598ms
+2025-06-09 22:08:02.281 [info] Handled visible editors change in 889.9189979997464ms
+2025-06-09 22:09:09.146 [info] Handled visible editors change in 0.12159799970686436ms
+2025-06-09 22:09:09.717 [info] Uploaded file internal/database/provider.go modelVersion=4 in 489.4235209999606ms
+2025-06-09 22:09:09.718 [info] Handled visible editors change in 558.7679579998367ms
+2025-06-09 22:09:47.138 [info] Synced file internal/database/provider.go modelVersion=5 in 467.0957229998894ms
+2025-06-09 22:09:48.002 [info] Synced file internal/database/provider.go modelVersion=6 in 159.11132299993187ms
+2025-06-09 22:09:48.090 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-09 22:09:48.367 [info] Fetched fsConfig in 276.968615999911ms
+2025-06-09 22:09:48.367 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-09 22:09:48.367 [info] File sync enabled status: true
+2025-06-09 22:09:48.367 [info] Starting sync of visible tabs
+2025-06-09 22:09:48.367 [info] Synced all visible tabs in 0.11930299969390035ms
+2025-06-09 22:12:07.464 [info] Handled visible editors change in 0.08874600008130074ms
+2025-06-09 22:12:08.404 [info] Uploaded file internal/server/http.go modelVersion=4 in 870.5691610001959ms
+2025-06-09 22:12:08.405 [info] Handled visible editors change in 927.2692460003309ms
+2025-06-09 22:12:32.952 [info] Handled visible editors change in 0.0757820000872016ms
+2025-06-09 22:12:33.207 [info] Uploaded file internal/config/service.go modelVersion=1 in 179.03869700012729ms
+2025-06-09 22:12:33.207 [info] Handled visible editors change in 245.0467260000296ms
+2025-06-09 22:12:45.818 [info] Handled visible editors change in 0.08841599989682436ms
+2025-06-09 22:12:45.830 [info] Handled visible editors change in 0.2834319998510182ms
+2025-06-09 22:13:12.084 [info] Handled visible editors change in 0.10422499990090728ms
+2025-06-09 22:13:12.095 [info] Handled visible editors change in 0.21043499978259206ms
+2025-06-09 22:13:46.290 [info] Handled visible editors change in 0.0635190000757575ms
+2025-06-09 22:13:46.304 [info] Handled visible editors change in 0.24891600012779236ms
+2025-06-09 22:14:19.970 [info] Handled visible editors change in 0.09437700035050511ms
+2025-06-09 22:14:19.983 [info] Handled visible editors change in 0.29020299995318055ms
+2025-06-09 22:15:14.472 [info] Handled visible editors change in 0.12785900011658669ms
+2025-06-09 22:15:15.230 [info] Uploaded file internal/server/grpc.go modelVersion=4 in 677.2481010002084ms
+2025-06-09 22:15:15.231 [info] Handled visible editors change in 741.7902569998987ms
+2025-06-09 22:15:16.249 [info] Handled visible editors change in 0.09059000015258789ms
+2025-06-09 22:15:16.260 [info] Handled visible editors change in 0.2961149998009205ms
+2025-06-09 22:15:18.534 [info] Handled visible editors change in 0.0985440001823008ms
+2025-06-09 22:15:18.545 [info] Handled visible editors change in 0.2523930002935231ms
+2025-06-09 22:16:26.876 [info] Handled visible editors change in 0.12668800028041005ms
+2025-06-09 22:16:26.892 [info] Handled visible editors change in 0.22408899990841746ms
+2025-06-09 22:16:57.305 [info] Handled visible editors change in 0.17907499987632036ms
+2025-06-09 22:16:57.315 [info] Handled visible editors change in 0.3201600001193583ms
+2025-06-09 22:18:04.437 [info] Handled visible editors change in 0.08968800026923418ms
+2025-06-09 22:18:04.447 [info] Handled visible editors change in 0.24737299978733063ms
+2025-06-09 22:18:07.330 [info] Handled visible editors change in 0.12877100007608533ms
+2025-06-09 22:18:08.241 [info] Uploaded file internal/core/di/container.go modelVersion=4 in 846.672927999869ms
+2025-06-09 22:18:08.241 [info] Handled visible editors change in 899.2009879997931ms
+2025-06-09 22:18:26.643 [info] Handled visible editors change in 0.09615000011399388ms
+2025-06-09 22:18:26.856 [info] Uploaded file internal/config/provider.go modelVersion=9 in 165.01490100007504ms
+2025-06-09 22:18:26.856 [info] Handled visible editors change in 201.90872800024226ms
+2025-06-09 22:19:54.451 [info] Handled visible editors change in 0.08252499997615814ms
+2025-06-09 22:19:55.354 [info] Uploaded file internal/server/http.go modelVersion=4 in 855.6092599998228ms
+2025-06-09 22:19:55.354 [info] Handled visible editors change in 889.3928689998575ms
+2025-06-09 22:20:13.848 [info] Handled visible editors change in 0.21367899980396032ms
+2025-06-09 22:20:14.093 [info] Uploaded file internal/config/service.go modelVersion=1 in 186.5186419999227ms
+2025-06-09 22:20:14.094 [info] Handled visible editors change in 235.41886399965733ms
+2025-06-09 22:20:15.584 [info] Synced file internal/config/service.go modelVersion=3 in 158.73709199996665ms
+2025-06-09 22:20:16.447 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-09 22:20:16.698 [info] Fetched fsConfig in 250.83159200008959ms
+2025-06-09 22:20:16.698 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-09 22:20:16.698 [info] File sync enabled status: true
+2025-06-09 22:20:16.698 [info] Starting sync of visible tabs
+2025-06-09 22:20:16.698 [info] Synced all visible tabs in 0.12189800012856722ms
+2025-06-09 22:20:28.505 [info] Handled visible editors change in 0.09274399979040027ms
+2025-06-09 22:20:28.746 [info] Uploaded file internal/server/grpc.go modelVersion=4 in 189.98799799988046ms
+2025-06-09 22:20:28.746 [info] Handled visible editors change in 230.095960999839ms
+2025-06-09 22:20:29.693 [info] Handled visible editors change in 0.2521519996225834ms
+2025-06-09 22:20:29.710 [info] Handled visible editors change in 0.3176540001295507ms
+2025-06-09 22:20:34.191 [info] Handled visible editors change in 0.12954300036653876ms
+2025-06-09 22:20:34.204 [info] Handled visible editors change in 0.21736699994653463ms
+2025-06-09 22:20:34.841 [info] Handled visible editors change in 0.12494400003924966ms
+2025-06-09 22:20:35.067 [info] Uploaded file internal/config/model.go modelVersion=1 in 171.82745399978012ms
+2025-06-09 22:20:35.067 [info] Handled visible editors change in 196.26946299988776ms
+2025-06-09 22:20:38.088 [info] Handled visible editors change in 0.09322499996051192ms
+2025-06-09 22:20:38.301 [info] Uploaded file internal/config/repo.go modelVersion=1 in 160.43421000009403ms
+2025-06-09 22:20:38.301 [info] Handled visible editors change in 193.10794600006193ms
+2025-06-09 22:20:40.553 [info] Handled visible editors change in 0.09126099990680814ms
+2025-06-09 22:20:40.774 [info] Uploaded file internal/config/service.go modelVersion=3 in 171.369041999802ms
+2025-06-09 22:20:40.774 [info] Handled visible editors change in 209.57355300011113ms
+2025-06-09 22:20:42.341 [info] Handled visible editors change in 0.061866000294685364ms
+2025-06-09 22:20:42.349 [info] Handled visible editors change in 0.2754760002717376ms
+2025-06-09 22:22:02.722 [info] Handled visible editors change in 0.09575900016352534ms
+2025-06-09 22:22:03.399 [info] Uploaded file internal/grpc/server.go modelVersion=1 in 629.5445800004527ms
+2025-06-09 22:22:03.399 [info] Handled visible editors change in 657.9178630001843ms
+2025-06-09 22:23:15.506 [info] Handled visible editors change in 0.1247129999101162ms
+2025-06-09 22:23:16.308 [info] Uploaded file api/http/http.go modelVersion=1 in 723.4658969999291ms
+2025-06-09 22:23:16.308 [info] Handled visible editors change in 777.9077730001882ms
+2025-06-09 22:24:08.477 [info] Handled visible editors change in 0.09151099994778633ms
+2025-06-09 22:24:08.745 [info] Uploaded file api/grpc/config.pb.go modelVersion=1 in 190.94818799989298ms
+2025-06-09 22:24:08.745 [info] Handled visible editors change in 240.88666700012982ms
+2025-06-09 22:24:09.406 [info] Handled visible editors change in 0.07223499985411763ms
+2025-06-09 22:24:09.436 [info] Handled visible editors change in 0.2736320002004504ms
+2025-06-09 22:24:13.842 [info] Synced file api/http/http.go modelVersion=2 in 173.3472049999982ms
+2025-06-09 22:24:14.677 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-09 22:24:14.881 [info] Fetched fsConfig in 203.9594150003977ms
+2025-06-09 22:24:14.881 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-09 22:24:14.882 [info] File sync enabled status: true
+2025-06-09 22:24:14.882 [info] Starting sync of visible tabs
+2025-06-09 22:24:14.882 [info] Synced all visible tabs in 0.11410300014540553ms
+2025-06-09 22:25:04.825 [info] Uploaded file internal/database/provider.go modelVersion=7 in 158.70366099989042ms
+2025-06-09 22:25:04.825 [info] Uploaded file internal/database/provider.go modelVersion=7 in 157.37708000000566ms
+2025-06-09 22:25:04.987 [info] Uploaded file internal/database/provider.go modelVersion=7 in 182.01038799993694ms
+2025-06-09 22:25:04.987 [info] Uploaded file internal/database/provider.go modelVersion=7 in 181.8545069997199ms
+2025-06-09 22:25:48.275 [info] Uploaded file cmd/server/main_test.go modelVersion=2 in 185.93611699994653ms
+2025-06-09 22:25:48.277 [info] Uploaded file cmd/server/main_test.go modelVersion=2 in 186.77309200027958ms
+2025-06-09 22:25:48.282 [info] Uploaded file cmd/server/main_test.go modelVersion=4 in 158.17026299983263ms
+2025-06-09 22:25:48.285 [info] Uploaded file cmd/server/main_test.go modelVersion=4 in 160.11461800010875ms
+2025-06-09 22:26:02.158 [info] Uploaded file internal/database/mock_provider.go modelVersion=4 in 159.40845600003377ms
+2025-06-09 22:26:02.159 [info] Uploaded file internal/database/mock_provider.go modelVersion=4 in 161.04115800000727ms
+2025-06-09 22:26:02.161 [info] Uploaded file internal/database/mock_provider.go modelVersion=4 in 161.50716999964789ms
+2025-06-09 22:26:02.161 [info] Uploaded file internal/database/mock_provider.go modelVersion=4 in 162.01391700003296ms
+2025-06-09 22:26:30.215 [info] Synced file cmd/server/main_test.go modelVersion=6 in 264.99941000016406ms
+2025-06-09 22:26:32.096 [info] Synced file cmd/server/main_test.go modelVersion=11 in 271.29684199998155ms
+2025-06-09 22:26:59.513 [info] Synced file internal/database/mock_provider.go modelVersion=6 in 274.4837750000879ms
+2025-06-09 22:27:01.403 [info] Synced file internal/database/mock_provider.go modelVersion=11 in 162.7285020002164ms
+2025-06-09 22:28:14.469 [info] Handled visible editors change in 0.21045299991965294ms
+2025-06-09 22:28:14.480 [info] Handled visible editors change in 0.2347790002822876ms
+2025-06-09 22:28:32.727 [info] Uploaded file internal/config/service_test.go modelVersion=4 in 670.9090240001678ms
+2025-06-09 22:28:32.727 [info] Uploaded file internal/config/service_test.go modelVersion=2 in 704.595513000153ms
+2025-06-09 22:28:32.728 [info] Uploaded file internal/config/service_test.go modelVersion=4 in 672.488927999977ms
+2025-06-09 22:28:32.728 [info] Uploaded file internal/config/service_test.go modelVersion=2 in 715.4635019996203ms
+2025-06-09 22:28:33.254 [warning] Failed to sync changes for internal/config/service_test.go, version=4, retrying (attempt 1) [invalid_argument] Version mismatch: VersionMismatch: Expects current file version 2 to be one less than the new update version 4
+2025-06-09 22:28:33.544 [warning] Failed to sync changes for internal/config/service_test.go, version=4, retrying (attempt 2) [invalid_argument] Version mismatch: VersionMismatch: Expects current file version 2 to be one less than the new update version 4
+2025-06-09 22:28:33.954 [warning] Failed to sync changes for internal/config/service_test.go, version=4, retrying (attempt 3) [invalid_argument] Version mismatch: VersionMismatch: Expects current file version 2 to be one less than the new update version 4
+2025-06-09 22:28:33.954 [error] Failed to sync changes for internal/config/service_test.go, version=4, attempting full file sync [invalid_argument] Version mismatch: VersionMismatch: Expects current file version 2 to be one less than the new update version 4
+2025-06-09 22:28:34.160 [info] Uploaded file internal/config/service_test.go modelVersion=4 in 205.67834800016135ms
+2025-06-09 22:28:49.911 [info] Synced file internal/config/service_test.go modelVersion=6 in 267.4601300000213ms
+2025-06-09 22:28:51.771 [info] Synced file internal/config/service_test.go modelVersion=11 in 230.52857399964705ms
+2025-06-09 22:29:39.452 [info] Synced file internal/config/service_test.go modelVersion=13 in 267.0826520002447ms
+2025-06-09 22:29:41.129 [info] Synced file internal/config/service_test.go modelVersion=18 in 212.154202000238ms
+2025-06-09 22:30:14.629 [info] Synced file cmd/server/main_test.go modelVersion=13 in 166.62517699971795ms
+2025-06-09 22:30:15.912 [info] Synced file cmd/server/main_test.go modelVersion=18 in 167.49460500013083ms
+2025-06-09 22:31:06.534 [info] Uploaded file internal/config/repo.go modelVersion=2 in 178.83157300017774ms
+2025-06-09 22:31:06.536 [info] Uploaded file internal/config/repo.go modelVersion=2 in 181.46742099989206ms
+2025-06-09 22:31:28.407 [info] Uploaded file internal/config/service.go modelVersion=4 in 197.18353299982846ms
+2025-06-09 22:31:28.523 [info] Uploaded file internal/config/service.go modelVersion=4 in 176.30365299992263ms
+2025-06-09 22:31:28.524 [info] Uploaded file internal/config/service.go modelVersion=4 in 177.8901239996776ms
+2025-06-09 22:31:39.565 [info] Uploaded file internal/config/provider.go modelVersion=10 in 160.41024200012907ms
+2025-06-09 22:31:39.566 [info] Uploaded file internal/config/provider.go modelVersion=10 in 159.975347999949ms
+2025-06-09 22:31:39.708 [info] Uploaded file internal/config/provider.go modelVersion=10 in 184.11121500004083ms
+2025-06-09 22:31:39.708 [info] Uploaded file internal/config/provider.go modelVersion=10 in 183.76437600003555ms
+2025-06-09 22:32:12.957 [info] Synced file internal/config/service_test.go modelVersion=20 in 166.82232000026852ms
+2025-06-09 22:32:13.942 [info] Synced file internal/config/service_test.go modelVersion=25 in 166.56602900009602ms
+2025-06-09 22:32:39.202 [info] Synced file cmd/server/main_test.go modelVersion=20 in 162.60827299999073ms
+2025-06-09 22:32:40.329 [info] Synced file cmd/server/main_test.go modelVersion=25 in 188.10827599978074ms
+2025-06-09 22:33:10.659 [info] Handled visible editors change in 0.1568240001797676ms
+2025-06-09 22:33:10.670 [info] Handled visible editors change in 0.12981299962848425ms
+2025-06-09 22:33:11.994 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-09 22:33:12.279 [info] Fetched fsConfig in 285.3490980002098ms
+2025-06-09 22:33:12.279 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-09 22:33:12.279 [info] File sync enabled status: true
+2025-06-09 22:33:12.279 [info] Starting sync of visible tabs
+2025-06-09 22:33:12.279 [info] Synced all visible tabs in 0.0826550000347197ms
+2025-06-09 22:33:46.600 [info] Uploaded file internal/database/provider.go modelVersion=7 in 249.90996599989012ms
+2025-06-11 07:06:22.814 [info] Handled visible editors change in 0.25340399984270334ms
+2025-06-11 07:06:24.188 [info] Uploaded file cmd/server/main_test.go modelVersion=25 in 1123.8763919994235ms
+2025-06-11 07:06:24.188 [info] Handled visible editors change in 1328.5873060002923ms
+2025-06-11 07:14:06.754 [info] Uploaded file docker-compose.yml modelVersion=4 in 941.9857139997184ms
+2025-06-11 07:14:06.754 [info] Uploaded file docker-compose.yml modelVersion=2 in 977.0275250002742ms
+2025-06-11 07:14:06.755 [info] Uploaded file docker-compose.yml modelVersion=4 in 943.3983159996569ms
+2025-06-11 07:14:06.755 [info] Uploaded file docker-compose.yml modelVersion=2 in 966.1685879994184ms
+2025-06-11 07:14:06.775 [info] Uploaded file docker-compose.yml modelVersion=4 in 161.70160799939185ms
+2025-06-11 07:14:06.812 [info] Uploaded file docker-compose.yml modelVersion=4 in 197.9384439997375ms
+2025-06-11 07:14:12.916 [info] Handled visible editors change in 0.07496999949216843ms
+2025-06-11 07:14:21.659 [info] Uploaded file cmd/server/main_test.go modelVersion=25 in 177.48993999976665ms
+2025-06-11 07:14:21.659 [info] Handled visible editors change in 260.15138499997556ms
+2025-06-11 07:14:38.716 [info] Uploaded file api/http/http.go modelVersion=3 in 164.3020879998803ms
+2025-06-11 07:14:54.169 [info] Uploaded file init.sql modelVersion=4 in 161.12307299952954ms
+2025-06-11 07:14:54.249 [info] Uploaded file init.sql modelVersion=4 in 242.7818220006302ms
+2025-06-11 07:14:54.249 [info] Uploaded file init.sql modelVersion=4 in 239.18740999978036ms
+2025-06-11 07:14:54.250 [info] Uploaded file init.sql modelVersion=4 in 238.82014300022274ms
+2025-06-11 07:15:09.314 [info] Uploaded file Dockerfile modelVersion=2 in 233.52394700050354ms
+2025-06-11 07:15:09.315 [info] Uploaded file Dockerfile modelVersion=2 in 232.52811499964446ms
+2025-06-11 07:19:05.870 [info] Uploaded file postgres/migrations/V1_init.sql modelVersion=2 in 654.5965639995411ms
+2025-06-11 07:19:05.870 [info] Uploaded file postgres/migrations/V1_init.sql modelVersion=4 in 510.9688590001315ms
+2025-06-11 07:19:05.870 [info] Uploaded file postgres/migrations/V1_init.sql modelVersion=4 in 510.2835269998759ms
+2025-06-11 07:19:05.870 [info] Uploaded file postgres/migrations/V1_init.sql modelVersion=2 in 667.5956530002877ms
+2025-06-11 07:19:07.047 [warning] Failed to sync changes for postgres/migrations/V1_init.sql, version=4, retrying (attempt 1) [invalid_argument] Version mismatch: VersionMismatch: Expects current file version 2 to be one less than the new update version 4
+2025-06-11 07:19:07.785 [warning] Failed to sync changes for postgres/migrations/V1_init.sql, version=4, retrying (attempt 2) [invalid_argument] Version mismatch: VersionMismatch: Expects current file version 2 to be one less than the new update version 4
+2025-06-11 07:19:07.989 [warning] Failed to sync changes for postgres/migrations/V1_init.sql, version=4, retrying (attempt 3) [invalid_argument] Version mismatch: VersionMismatch: Expects current file version 2 to be one less than the new update version 4
+2025-06-11 07:19:07.990 [error] Failed to sync changes for postgres/migrations/V1_init.sql, version=4, attempting full file sync [invalid_argument] Version mismatch: VersionMismatch: Expects current file version 2 to be one less than the new update version 4
+2025-06-11 07:19:08.153 [info] Uploaded file postgres/migrations/V1_init.sql modelVersion=4 in 162.77390900067985ms
+2025-06-11 07:19:21.443 [info] Uploaded file docker-compose.yml modelVersion=6 in 166.77361899986863ms
+2025-06-11 07:19:21.471 [info] Uploaded file docker-compose.yml modelVersion=6 in 172.31419999990612ms
+2025-06-11 07:19:21.471 [info] Uploaded file docker-compose.yml modelVersion=6 in 170.55671299993992ms
+2025-06-11 07:19:24.153 [info] Synced file docker-compose.yml modelVersion=11 in 180.2373460000381ms
+2025-06-11 07:19:40.966 [info] Uploaded file init.sql modelVersion=2 in 178.57652899995446ms
+2025-06-11 07:19:40.967 [info] Uploaded file init.sql modelVersion=2 in 175.4585589999333ms
+2025-06-11 07:19:41.079 [info] Uploaded file init.sql modelVersion=2 in 248.48399699945003ms
+2025-06-11 07:19:41.080 [info] Uploaded file init.sql modelVersion=2 in 247.64334500022233ms
+2025-06-11 07:20:04.870 [info] Handled visible editors change in 0.17205199971795082ms
+2025-06-11 07:20:05.179 [info] Uploaded file api/http/http.go modelVersion=3 in 173.38190500065684ms
+2025-06-11 07:20:05.180 [info] Handled visible editors change in 293.6953710000962ms
+2025-06-11 07:21:23.223 [info] Handled visible editors change in 0.1349729998037219ms
+2025-06-11 07:21:26.206 [info] Uploaded file Dockerfile modelVersion=2 in 2862.7383420001715ms
+2025-06-11 07:21:26.206 [info] Handled visible editors change in 2965.1327179996297ms
+2025-06-11 07:21:53.825 [info] Handled visible editors change in 0.12677700072526932ms
+2025-06-11 07:21:53.840 [info] Handled visible editors change in 0.4782249992713332ms
+2025-06-11 07:22:29.355 [info] Handled visible editors change in 0.30962900072336197ms
+2025-06-11 07:22:29.377 [info] Handled visible editors change in 0.28771799989044666ms
+2025-06-11 07:22:52.406 [info] Handled visible editors change in 0.12247900012880564ms
+2025-06-11 07:22:52.422 [info] Handled visible editors change in 0.3484620004892349ms

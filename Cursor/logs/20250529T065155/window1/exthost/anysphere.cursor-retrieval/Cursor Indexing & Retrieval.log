@@ -1,0 +1,19 @@
+2025-05-29 06:51:58.425 [error] Git command failed: git config --get remote.origin.url Command failed: git config --get remote.origin.url
+
+2025-05-29 06:51:58.425 [error] Error getting repo info: Command failed: git config --get remote.origin.url
+
+2025-05-29 06:51:58.425 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-05-29 06:51:58.664 [error] accessToken is undefined. User is not logged in. We shouldn't do any indexing.
+2025-05-29 06:53:00.238 [warning] Failed to get symbolic ref: Failed to execute git
+2025-05-29 06:53:00.239 [warning] Failed to read .git/HEAD: A system error occurred (ENOENT: no such file or directory, open '.git/HEAD')
+2025-05-29 06:53:00.354 [warning] Failed to get branches from remote: Failed to execute git
+2025-05-29 06:53:00.383 [warning] Failed to get default branch from git config: Failed to execute git

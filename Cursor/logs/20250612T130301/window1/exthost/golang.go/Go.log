@@ -1,0 +1,14 @@
+2025-06-12 13:03:04.584 [info] Try to start language server - activation (enabled: true)
+2025-06-12 13:03:04.653 [info] Running language server gopls(v0.18.1/go1.24.3)
+2025-06-12 13:56:35.953 [info] Running checks...
+2025-06-12 13:56:35.953 [info] Starting linting the current package at /home/airmyxa/dev/config-provider-server/internal/grpc
+2025-06-12 13:56:36.489 [info] /home/airmyxa/dev/config-provider-server/internal/grpc>Finished running tool: /home/airmyxa/go/bin/staticcheck
+2025-06-12 13:56:36.489 [info] 
+2025-06-12 13:56:46.874 [info] Running checks...
+2025-06-12 13:56:46.875 [info] Starting linting the current package at /home/airmyxa/dev/config-provider-server/internal/server
+2025-06-12 13:56:47.334 [info] /home/airmyxa/dev/config-provider-server/internal/server>Finished running tool: /home/airmyxa/go/bin/staticcheck
+2025-06-12 13:56:47.334 [info] 
+2025-06-12 13:56:54.173 [info] Running checks...
+2025-06-12 13:56:54.173 [info] Starting linting the current package at /home/airmyxa/dev/config-provider-server/internal/server
+2025-06-12 13:56:54.388 [info] /home/airmyxa/dev/config-provider-server/internal/server>Finished running tool: /home/airmyxa/go/bin/staticcheck
+2025-06-12 13:56:54.388 [info] 

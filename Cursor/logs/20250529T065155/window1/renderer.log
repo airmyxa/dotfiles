@@ -1,0 +1,171 @@
+2025-05-29 06:51:56.585 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-29 06:51:56.585 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-29 06:51:56.585 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-29 06:51:56.585 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-29 06:51:56.586 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-29 06:51:56.586 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-29 06:51:56.586 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-29 06:51:56.586 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-29 06:51:56.586 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-29 06:51:56.603 [warning] Missing property "composerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.603 [warning] Missing property "mcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.603 [warning] Missing property "mcpDisabledTools" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.603 [warning] Missing property "availableDefaultModels2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.603 [warning] Missing property "notepadState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.603 [warning] Missing property "bugbotState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.604 [warning] Missing property "backgroundComposerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.604 [warning] Missing property "dialogDontAskAgainPreferences" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.604 [warning] Missing property "aiFeaturesCopyPasteState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.604 [warning] Missing property "cursorIgnore" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.604 [warning] Missing property "teamAdminSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.604 [warning] Missing property "shouldShowViewZoneWhenPreviewBoxIsClipped6" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.604 [warning] Missing property "syncDevModeColorTheme" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.604 [warning] Missing property "cppModelsState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.604 [warning] Missing property "isLinterEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.604 [warning] Missing property "aiSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.604 [warning] Missing property "authenticationSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.604 [warning] Missing property "websiteUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.604 [warning] Missing property "backendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.605 [warning] Missing property "authClientId" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.605 [warning] Missing property "authDomain" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.605 [warning] Missing property "repoBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.605 [warning] Missing property "contextBankUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.605 [warning] Missing property "telemBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.605 [warning] Missing property "cmdkBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.605 [warning] Missing property "geoCppBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.605 [warning] Missing property "cppConfigBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.605 [warning] Missing property "bcProxyUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.605 [warning] Missing property "credentialsDisplayName" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.605 [warning] Missing property "docState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.605 [warning] Missing property "lastUpdateHiddenTimeInUnixSeconds" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.605 [warning] Missing property "lintRules" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.605 [warning] Missing property "bubbleTimesLeft" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.605 [warning] Missing property "showAgentActionDebugger" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.605 [warning] Missing property "cmdLineHookState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.605 [warning] Missing property "showLinterDebugger" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.606 [warning] Missing property "linterDebuggerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.606 [warning] Missing property "cacheChatPrompts" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.606 [warning] Missing property "cmdkDiffHistoryEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.606 [warning] Missing property "shouldOnlyImportOnAccept" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.606 [warning] Missing property "cppAutoImportDecorationStyle" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.606 [warning] Missing property "lintSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.606 [warning] Missing property "lastUpgradeToProNotificationTime" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.606 [warning] Missing property "haveNotSeen" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.606 [warning] Missing property "newUserData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.606 [warning] Missing property "azureState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.606 [warning] Missing property "interpreterModeSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.606 [warning] Missing property "cppFireOnEveryCursorChange" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.606 [warning] Missing property "personalDocs" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.606 [warning] Missing property "cppInCmdF" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.606 [warning] Missing property "cppManualTriggerWithOpToken" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.606 [warning] Missing property "cppTriggerInComments" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.607 [warning] Missing property "cppShowWhitespaceOnlyChanges" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.607 [warning] Missing property "fastCppEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.607 [warning] Missing property "cppConfig" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.607 [warning] Missing property "indexRepository" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.607 [warning] Missing property "haveNotImportedFromVSC" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.607 [warning] Missing property "shouldAutoParseCmdKLinks" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.607 [warning] Missing property "aiPreviewsEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.607 [warning] Missing property "autoCreateNewChatAfterTimeout" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.607 [warning] Missing property "aiPreviewSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.607 [warning] Missing property "chatFadeInAnimationEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.607 [warning] Missing property "isFileSyncClientEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.607 [warning] Missing property "membershipType" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.607 [warning] Missing property "useFastApplyModel" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.607 [warning] Missing property "fastApplyModelType" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.607 [warning] Missing property "explicitlyEnableSemanticSearch" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.607 [warning] Missing property "aiCursorHelpEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.607 [warning] Missing property "showAllCmdKContexts" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.608 [warning] Missing property "backgroundComposerEnv" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.608 [warning] Missing property "markdownTestString" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.608 [warning] Missing property "cppInPeek" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.608 [warning] Missing property "fastSemanticSearchEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.608 [warning] Missing property "preferredEmbeddingModel" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.608 [warning] Missing property "cursorPredictionUIExperiments" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.608 [warning] Missing property "oneTimeSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.608 [warning] Missing property "indexingState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.608 [warning] Missing property "internalAnalyticsDebugMode" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.608 [warning] Missing property "fullContextOptions" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.608 [warning] Missing property "eligibleForSnippetLearning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.608 [warning] Missing property "goneThroughCodeSnippetOnboarding" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.608 [warning] Missing property "goneThroughCodeSnippetChangeManagement" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.608 [warning] Missing property "shouldHideWarning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.608 [warning] Missing property "persistentChatMetadata" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.609 [warning] Missing property "aiPanePosition" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.609 [warning] Missing property "shouldRerankByDefault" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.609 [warning] Missing property "indexingData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.609 [warning] Missing property "composerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.609 [warning] Missing property "isCursorPredictionOutOfRangeIndicatorMinimized2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.609 [warning] Missing property "needsComposerInitialOpening" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.609 [warning] Missing property "approvedProjectMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.609 [warning] Missing property "disabledMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.609 [warning] Missing property "eligibleForSnippetLearning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.609 [warning] Missing property "isRcpServerEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 06:51:56.817 [info] Started local extension host with pid 179991.
+2025-05-29 06:51:56.861 [info] Started initializing default profile extensions in extensions installation folder. file:///home/airmyxa/.cursor/extensions
+2025-05-29 06:51:57.022 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/airmyxa/.cursor/extensions
+2025-05-29 06:51:57.592 [error] [Extension Host] (node:179991) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-05-29 06:51:59.207 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2772:205877)
+    at async Object.availableModels (vscode-file://vscode-app/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async P6i.keepCppModelStateUpdated (vscode-file://vscode-app/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5320:11905)
+    at async P6i.loadCppConfigIncludingHandlingProAccess (vscode-file://vscode-app/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5337:1055) [unauthenticated] Error
+2025-05-29 06:51:59.246 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2772:205877)
+    at async Object.cppEditHistoryStatus (vscode-file://vscode-app/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async F6i.pollTelemEnabled (vscode-file://vscode-app/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5347:22242) [unauthenticated] Error
+2025-05-29 06:51:59.246 [error] Bundled Anysphere extension 'anysphere.remote-ssh' not found
+2025-05-29 06:51:59.247 [error] Bundled Anysphere extension 'anysphere.remote-wsl' not found
+2025-05-29 06:51:59.247 [error] Bundled Anysphere extension 'anysphere.remote-containers' not found
+2025-05-29 06:51:59.353 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2772:205877)
+    at async Object.availableDocs (vscode-file://vscode-app/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async cti.availableDocs (vscode-file://vscode-app/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:650:13502)
+    at async Rci.z (vscode-file://vscode-app/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:1017:7197) [unauthenticated] Error
+2025-05-29 06:51:59.368 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2772:205877)
+    at async Object.availableDocs (vscode-file://vscode-app/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async cti.availableDocs (vscode-file://vscode-app/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:650:13502)
+    at async Object.fn (vscode-file://vscode-app/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5358:50926) [unauthenticated] Error
+2025-05-29 06:51:59.368 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2772:205877)
+    at async Object.getDefaultModelNudgeData (vscode-file://vscode-app/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async cti.performDefaultModelRequest (vscode-file://vscode-app/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:650:14290) [unauthenticated] Error
+2025-05-29 06:51:59.872 [info] [perf] Render performance baseline is 12ms
+2025-05-29 06:53:00.278 [error] [Extension Host] failed to get symbolic ref Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1293375)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async Rtt.$getDefaultBranch (file:///tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56076)
+2025-05-29 06:53:00.279 [error] [Extension Host] failed to read .git/HEAD Error: ENOENT: no such file or directory, open '.git/HEAD'
+	at async open (node:internal/fs/promises:639:25)
+	at async Object.readFile (node:internal/fs/promises:1246:14)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1293679)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async Rtt.$getDefaultBranch (file:///tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56076)
+2025-05-29 06:53:00.355 [error] [Extension Host] failed to get branches from remote Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1294240)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async Rtt.$getDefaultBranch (file:///tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56076)
+2025-05-29 06:53:00.385 [error] [Extension Host] failed to get default branch from git config Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1294514)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async Rtt.$getDefaultBranch (file:///tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56076)
+2025-05-29 06:53:00.812 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2772:205877)
+    at async Object.getEmail (vscode-file://vscode-app/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async egt.getEmailAndSignUpType (vscode-file://vscode-app/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:204008) [unauthenticated] Error
+2025-05-29 06:53:00.815 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2772:205877)
+    at async Object.availableDocs (vscode-file://vscode-app/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async cti.availableDocs (vscode-file://vscode-app/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:650:13502)
+    at async Object.fn (vscode-file://vscode-app/tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2287:82675) [unauthenticated] Error

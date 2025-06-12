@@ -1,0 +1,68 @@
+syntax = "proto3";
+package config;
+
+option go_package = "github.com/example/config-provider-server/api/grpc";
+
+message Config {
+  string name = 1;
+  string data = 2;
+  string updated_at = 3;
+}
+
+message ConfigMetadata {
+  string config_name = 1;
+  string description = 2;
+  repeated string maintainers = 3;
+}
+
+message CreateConfigRequest {
+  string name = 1;
+  string data = 2;
+}
+
+message UpdateConfigRequest {
+  string name = 1;
+  string data = 2;
+}
+
+message ConfigRequest {
+  string name = 1;
+}
+
+message ConfigAtTimeRequest {
+  string name = 1;
+  string timestamp = 2;
+}
+
+message ConfigsUpdatedRequest {
+  string since = 1;
+}
+
+message ConfigsResponse {
+  repeated Config configs = 1;
+}
+
+message CreateMetadataRequest {
+  string config_name = 1;
+  string description = 2;
+  repeated string maintainers = 3;
+}
+
+message UpdateMetadataRequest {
+  string config_name = 1;
+  string description = 2;
+  repeated string maintainers = 3;
+}
+
+service ConfigService {
+  rpc CreateConfig (CreateConfigRequest) returns (Config);
+  rpc GetConfig (ConfigRequest) returns (Config);
+  rpc GetConfigAtTime (ConfigAtTimeRequest) returns (Config);
+  rpc UpdateConfig (UpdateConfigRequest) returns (Config);
+  rpc DeleteConfig (ConfigRequest) returns (Config);
+  rpc GetUpdatedConfigs (ConfigsUpdatedRequest) returns (ConfigsResponse);
+  
+  rpc CreateMetadata (CreateMetadataRequest) returns (ConfigMetadata);
+  rpc GetMetadata (ConfigRequest) returns (ConfigMetadata);
+  rpc UpdateMetadata (UpdateMetadataRequest) returns (ConfigMetadata);
+}

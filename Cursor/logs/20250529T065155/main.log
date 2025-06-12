@@ -1,0 +1,7 @@
+2025-05-29 06:51:55.561 [info] updateURL https://api2.cursor.sh/updates/api/update/linux-x64/cursor/0.50.5/57f865e890f2aae1d5b3cd45863c5065181509172d8f39567ad7cc85b0923383/stable
+2025-05-29 06:51:55.561 [info] update#setState idle
+2025-05-29 06:52:25.564 [info] update#setState checking for updates
+2025-05-29 06:52:25.849 [info] update#setState ready
+2025-05-29 06:53:07.096 [info] Extension host with pid 179991 exited with code: 0, signal: unknown.
+2025-05-29 06:53:07.133 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 179972]: crashed with code 15 and reason 'killed'
+2025-05-29 06:53:07.140 [info] update#quitAndInstall(): starting updater with command /tmp/.mount_CursornHBeZ0/usr/share/cursor/resources/appimageupdatetool.AppImage -u "zsync|https://downloads.cursor.com/production/02270c8441bdc4b2fdbc30e6f470a589ec78d60d/linux/x64/Cursor-0.50.7-x86_64.AppImage.zsync" -O "/home/airmyxa/Downloads/Cursor-0.50.5-x86_64.AppImage"; /home/airmyxa/Downloads/Cursor-0.50.5-x86_64.AppImage &

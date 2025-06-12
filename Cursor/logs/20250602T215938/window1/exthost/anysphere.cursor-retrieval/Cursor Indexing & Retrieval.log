@@ -1,0 +1,597 @@
+2025-06-02 21:59:41.363 [error] Git command failed: git config --get remote.origin.url Command failed: git config --get remote.origin.url
+
+2025-06-02 21:59:41.363 [error] Error getting repo info: Command failed: git config --get remote.origin.url
+
+2025-06-02 21:59:41.363 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-06-02 21:59:41.363 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-06-02 21:59:41.363 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-06-02 21:59:41.602 [error] NoWorkspaceUriError
+2025-06-02 21:59:42.963 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-06-02 21:59:42.963 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-06-02 21:59:42.964 [error] NoWorkspaceUriError
+2025-06-02 22:05:20.894 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-06-02 22:05:20.894 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-06-02 22:05:20.894 [info] Making keys for a new index
+2025-06-02 22:05:20.896 [info] Using the default key from the server for a new index
+2025-06-02 22:05:20.896 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-06-02 22:05:21.002 [warning] Failed to get symbolic ref: Failed to execute git
+2025-06-02 22:05:21.021 [error] Git command failed: git rev-parse --abbrev-ref HEAD Command failed: git rev-parse --abbrev-ref HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-06-02 22:05:21.118 [info] Using existing keys for an index
+2025-06-02 22:05:21.118 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-06-02 22:05:21.146 [info] Doing a startup handshake.
+2025-06-02 22:05:21.149 [warning] Failed to get default branch from git config: Failed to execute git
+2025-06-02 22:05:21.246 [info] Finished computing merkle tree in 13.410025000000132 ms.
+2025-06-02 22:05:21.247 [info] Doing the initial handshake with hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-02 22:05:21.251 [info] Computed simhash vector of length: 0
+2025-06-02 22:05:21.251 [info] Path key hash: a05cb37a407f17fcaf35e924a2f043cf5bebf43fed3675bcfee18f9a592ff9ab
+2025-06-02 22:05:21.251 [info] Handshake start
+2025-06-02 22:05:21.251 [warning] Error reading high level folder description. Ignoring. Error: ENOENT: no such file or directory, open '/home/airmyxa/.config/Cursor/User/workspaceStorage/011681212f455f59e0a7f5b2b5887166/anysphere.cursor-retrieval/high_level_folder_description.txt'
+2025-06-02 22:05:21.472 [warning] Failed to get symbolic ref: Failed to execute git
+2025-06-02 22:05:21.523 [warning] Failed to get default branch from git config: Failed to execute git
+2025-06-02 22:05:22.230 [info] Handshake timing: 982.0679459999999, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-06-02 22:05:22.230 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-06-02 22:05:22.231 [info] Starting fast remote sync.
+2025-06-02 22:05:22.231 [info] Total num embeddable files: 0
+2025-06-02 22:05:22.231 [info] Root hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-02 22:05:22.231 [info] Starting repository upload from scratch.
+2025-06-02 22:05:22.232 [info] Uploading 0 files.
+2025-06-02 22:05:22.233 [info] Total number of files to embed: 0
+2025-06-02 22:05:22.233 [info] Not aborted
+2025-06-02 22:05:22.233 [info] Starting while loop.
+2025-06-02 22:05:22.260 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-06-02 22:05:22.260 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-06-02 22:05:22.262 [info] multiCodebaseIndexingJob dispose
+2025-06-02 22:05:22.262 [info] Aborting indexing job.
+2025-06-02 22:05:22.262 [info] Using existing keys for an index
+2025-06-02 22:05:22.262 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-06-02 22:05:22.262 [info] Indexing job successfully done or aborted.
+2025-06-02 22:05:22.264 [info] Doing a startup handshake.
+2025-06-02 22:05:22.269 [info] Finished computing merkle tree in 3.107712999999876 ms.
+2025-06-02 22:05:22.270 [info] Doing the initial handshake with hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-02 22:05:22.272 [info] Computed simhash vector of length: 0
+2025-06-02 22:05:22.272 [info] Path key hash: a05cb37a407f17fcaf35e924a2f043cf5bebf43fed3675bcfee18f9a592ff9ab
+2025-06-02 22:05:22.272 [info] Handshake start
+2025-06-02 22:05:22.864 [info] Handshake timing: 593.0197050000002, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-06-02 22:05:22.864 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-06-02 22:05:22.864 [info] Starting fast remote sync.
+2025-06-02 22:05:22.864 [info] Total num embeddable files: 0
+2025-06-02 22:05:22.864 [info] Root hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-02 22:05:22.864 [info] Starting repository upload from scratch.
+2025-06-02 22:05:22.865 [info] Uploading 0 files.
+2025-06-02 22:05:22.865 [info] Total number of files to embed: 0
+2025-06-02 22:05:22.865 [info] Not aborted
+2025-06-02 22:05:22.865 [info] Starting while loop.
+2025-06-02 22:05:23.040 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-06-02 22:05:23.220 [info] Finished indexing repository.
+2025-06-02 22:05:23.220 [info] Indexing job successfully done or aborted.
+2025-06-02 22:10:19.909 [warning] Failed to get symbolic ref: Failed to execute git
+2025-06-02 22:10:20.069 [warning] Failed to get default branch from git config: Failed to execute git
+2025-06-02 22:10:22.266 [info] multiCodebaseIndexingJob dispose
+2025-06-02 22:10:22.266 [info] Aborting indexing job.
+2025-06-02 22:10:22.266 [info] Setting global status from status tracker: synced
+2025-06-02 22:10:22.266 [info] Doing a startup handshake.
+2025-06-02 22:10:22.279 [info] Finished computing merkle tree in 1.7706859999452718 ms.
+2025-06-02 22:10:22.279 [info] Doing the initial handshake with hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-02 22:10:22.281 [info] Computed simhash vector of length: 0
+2025-06-02 22:10:22.281 [info] Path key hash: a05cb37a407f17fcaf35e924a2f043cf5bebf43fed3675bcfee18f9a592ff9ab
+2025-06-02 22:10:22.281 [info] Handshake start
+2025-06-02 22:10:22.460 [info] Handshake timing: 179.7978609999991, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-06-02 22:10:22.460 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-06-02 22:10:22.460 [info] Starting fast remote sync.
+2025-06-02 22:10:22.460 [info] Total num embeddable files: 0
+2025-06-02 22:10:22.460 [info] Root hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-02 22:10:22.461 [info] Starting repository upload from scratch.
+2025-06-02 22:10:22.461 [info] Uploading 0 files.
+2025-06-02 22:10:22.461 [info] Total number of files to embed: 0
+2025-06-02 22:10:22.461 [info] Not aborted
+2025-06-02 22:10:22.461 [info] Starting while loop.
+2025-06-02 22:10:22.628 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-06-02 22:10:22.793 [info] Finished indexing repository.
+2025-06-02 22:10:22.793 [info] Indexing job successfully done or aborted.
+2025-06-02 22:15:19.060 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'main' does not have any commits yet
+
+2025-06-02 22:15:19.060 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'main' does not have any commits yet
+
+2025-06-02 22:15:19.898 [warning] Failed to get symbolic ref: Failed to execute git
+2025-06-02 22:15:20.012 [warning] Failed to get default branch from git config: Failed to execute git
+2025-06-02 22:15:22.267 [info] multiCodebaseIndexingJob dispose
+2025-06-02 22:15:22.267 [info] Aborting indexing job.
+2025-06-02 22:15:22.267 [info] Setting global status from status tracker: synced
+2025-06-02 22:15:22.267 [info] Doing a startup handshake.
+2025-06-02 22:15:22.282 [info] Finished computing merkle tree in 2.5606439999537542 ms.
+2025-06-02 22:15:22.283 [info] Doing the initial handshake with hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-02 22:15:22.284 [info] Computed simhash vector of length: 0
+2025-06-02 22:15:22.284 [info] Path key hash: a05cb37a407f17fcaf35e924a2f043cf5bebf43fed3675bcfee18f9a592ff9ab
+2025-06-02 22:15:22.284 [info] Handshake start
+2025-06-02 22:15:23.175 [info] Handshake timing: 891.4205640000291, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-06-02 22:15:23.175 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-06-02 22:15:23.175 [info] Starting fast remote sync.
+2025-06-02 22:15:23.176 [info] Total num embeddable files: 0
+2025-06-02 22:15:23.176 [info] Root hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-02 22:15:23.176 [info] Starting repository upload from scratch.
+2025-06-02 22:15:23.176 [info] Uploading 0 files.
+2025-06-02 22:15:23.177 [info] Total number of files to embed: 0
+2025-06-02 22:15:23.177 [info] Not aborted
+2025-06-02 22:15:23.177 [info] Starting while loop.
+2025-06-02 22:15:23.343 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-06-02 22:15:23.553 [info] Finished indexing repository.
+2025-06-02 22:15:23.554 [info] Indexing job successfully done or aborted.
+2025-06-03 06:41:13.603 [warning] Failed to get symbolic ref: Failed to execute git
+2025-06-03 06:41:13.658 [warning] Failed to get default branch from git config: Failed to execute git
+2025-06-03 06:41:15.989 [info] multiCodebaseIndexingJob dispose
+2025-06-03 06:41:15.989 [info] Aborting indexing job.
+2025-06-03 06:41:15.989 [info] Setting global status from status tracker: synced
+2025-06-03 06:41:15.989 [info] Doing a startup handshake.
+2025-06-03 06:41:16.000 [info] Finished computing merkle tree in 1.2783510000444949 ms.
+2025-06-03 06:41:16.001 [info] Doing the initial handshake with hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-03 06:41:16.002 [info] Computed simhash vector of length: 0
+2025-06-03 06:41:16.002 [info] Path key hash: a05cb37a407f17fcaf35e924a2f043cf5bebf43fed3675bcfee18f9a592ff9ab
+2025-06-03 06:41:16.002 [info] Handshake start
+2025-06-03 06:41:20.006 [warning] Retrying handshake with timeout 4000. Error:  [deadline_exceeded] the operation timed out
+2025-06-03 06:41:20.006 [info] Handshake start
+2025-06-03 06:41:23.005 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-06-03 06:41:23.005 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-06-03 06:41:27.008 [warning] Retrying handshake with timeout 8000. Error:  [canceled] This operation was aborted
+2025-06-03 06:41:27.008 [info] Handshake start
+2025-06-03 06:41:28.008 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-06-03 06:41:28.008 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-06-03 06:41:33.008 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-06-03 06:41:33.008 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-06-03 06:41:36.011 [warning] Retrying handshake with timeout 16000. Error:  [canceled] This operation was aborted
+2025-06-03 06:41:36.011 [info] Handshake start
+2025-06-03 06:41:51.015 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-06-03 06:41:51.015 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-06-03 06:41:56.017 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-06-03 06:41:56.018 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-06-03 06:42:07.019 [warning] Retrying handshake with timeout 32000. Error:  [canceled] This operation was aborted
+2025-06-03 06:42:07.019 [info] Handshake start
+2025-06-03 06:42:22.022 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-06-03 06:42:22.022 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-06-03 06:42:27.026 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-06-03 06:42:27.026 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-06-03 06:42:54.023 [warning] Retrying handshake with timeout 64000. Error:  [canceled] This operation was aborted
+2025-06-03 06:42:54.023 [info] Handshake start
+2025-06-03 06:43:09.028 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-06-03 06:43:09.028 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-06-03 06:43:14.030 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-06-03 06:43:14.030 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-06-03 06:44:13.030 [warning] Retrying handshake with timeout 128000. Error:  [canceled] This operation was aborted
+2025-06-03 06:44:13.030 [error] Handshake failed:
+2025-06-03 06:44:13.031 [error] Error: timeout in handshake with retry
+	at t.RepoClientMultiplexer.tryHandshake (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1403312)
+	at async t.RepoClientMultiplexer.handshakeWithRetry (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1398285)
+	at async v.getServerStatus (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1413473)
+	at async v.startIndexingRepository (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1415139)
+2025-06-03 06:44:13.031 [error] Handshake failed.
+2025-06-03 06:44:13.031 [info] Indexing job successfully done or aborted.
+2025-06-03 06:46:12.756 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'main' does not have any commits yet
+
+2025-06-03 06:46:12.756 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'main' does not have any commits yet
+
+2025-06-03 06:46:13.599 [warning] Failed to get symbolic ref: Failed to execute git
+2025-06-03 06:46:13.656 [warning] Failed to get default branch from git config: Failed to execute git
+2025-06-03 06:46:15.989 [info] multiCodebaseIndexingJob dispose
+2025-06-03 06:46:15.989 [info] Aborting indexing job.
+2025-06-03 06:46:15.989 [info] Doing a startup handshake.
+2025-06-03 06:46:16.002 [info] Finished computing merkle tree in 1.6099839999806136 ms.
+2025-06-03 06:46:16.002 [info] Doing the initial handshake with hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-03 06:46:16.004 [info] Computed simhash vector of length: 0
+2025-06-03 06:46:16.004 [info] Path key hash: a05cb37a407f17fcaf35e924a2f043cf5bebf43fed3675bcfee18f9a592ff9ab
+2025-06-03 06:46:16.004 [info] Handshake start
+2025-06-03 06:46:17.124 [info] Handshake timing: 1121.3455489999615, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-06-03 06:46:17.124 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-06-03 06:46:17.124 [info] Starting fast remote sync.
+2025-06-03 06:46:17.125 [info] Total num embeddable files: 0
+2025-06-03 06:46:17.125 [info] Root hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-03 06:46:17.125 [info] Starting repository upload from scratch.
+2025-06-03 06:46:17.125 [info] Uploading 0 files.
+2025-06-03 06:46:17.126 [info] Total number of files to embed: 0
+2025-06-03 06:46:17.126 [info] Not aborted
+2025-06-03 06:46:17.126 [info] Starting while loop.
+2025-06-03 06:46:21.132 [warning] Retrying ensure index created with timeout 4000. Error:  [deadline_exceeded] the operation timed out
+2025-06-03 06:46:21.836 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-06-03 06:46:22.040 [info] Finished indexing repository.
+2025-06-03 06:46:22.040 [info] Indexing job successfully done or aborted.
+2025-06-03 06:51:13.608 [warning] Failed to get symbolic ref: Failed to execute git
+2025-06-03 06:51:13.690 [warning] Failed to get default branch from git config: Failed to execute git
+2025-06-03 06:51:15.991 [info] multiCodebaseIndexingJob dispose
+2025-06-03 06:51:15.991 [info] Aborting indexing job.
+2025-06-03 06:51:15.991 [info] Setting global status from status tracker: synced
+2025-06-03 06:51:15.991 [info] Doing a startup handshake.
+2025-06-03 06:51:16.002 [info] Finished computing merkle tree in 1.1447799999732524 ms.
+2025-06-03 06:51:16.003 [info] Doing the initial handshake with hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-03 06:51:16.004 [info] Computed simhash vector of length: 0
+2025-06-03 06:51:16.004 [info] Path key hash: a05cb37a407f17fcaf35e924a2f043cf5bebf43fed3675bcfee18f9a592ff9ab
+2025-06-03 06:51:16.004 [info] Handshake start
+2025-06-03 06:51:16.341 [info] Handshake timing: 337.1360949999653, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-06-03 06:51:16.341 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-06-03 06:51:16.341 [info] Starting fast remote sync.
+2025-06-03 06:51:16.341 [info] Total num embeddable files: 0
+2025-06-03 06:51:16.342 [info] Root hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-03 06:51:16.342 [info] Starting repository upload from scratch.
+2025-06-03 06:51:16.342 [info] Uploading 0 files.
+2025-06-03 06:51:16.342 [info] Total number of files to embed: 0
+2025-06-03 06:51:16.342 [info] Not aborted
+2025-06-03 06:51:16.342 [info] Starting while loop.
+2025-06-03 06:51:16.614 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-06-03 06:51:16.956 [info] Finished indexing repository.
+2025-06-03 06:51:16.956 [info] Indexing job successfully done or aborted.
+2025-06-03 06:56:12.757 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'main' does not have any commits yet
+
+2025-06-03 06:56:12.757 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'main' does not have any commits yet
+
+2025-06-03 06:56:13.599 [warning] Failed to get symbolic ref: Failed to execute git
+2025-06-03 06:56:13.680 [warning] Failed to get default branch from git config: Failed to execute git
+2025-06-03 06:56:15.991 [info] multiCodebaseIndexingJob dispose
+2025-06-03 06:56:15.991 [info] Aborting indexing job.
+2025-06-03 06:56:15.991 [info] Setting global status from status tracker: synced
+2025-06-03 06:56:15.991 [info] Doing a startup handshake.
+2025-06-03 06:56:16.002 [info] Finished computing merkle tree in 2.049297999823466 ms.
+2025-06-03 06:56:16.003 [info] Doing the initial handshake with hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-03 06:56:16.004 [info] Computed simhash vector of length: 0
+2025-06-03 06:56:16.004 [info] Path key hash: a05cb37a407f17fcaf35e924a2f043cf5bebf43fed3675bcfee18f9a592ff9ab
+2025-06-03 06:56:16.004 [info] Handshake start
+2025-06-03 06:56:16.377 [info] Handshake timing: 373.46085399994627, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-06-03 06:56:16.377 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-06-03 06:56:16.377 [info] Starting fast remote sync.
+2025-06-03 06:56:16.377 [info] Total num embeddable files: 0
+2025-06-03 06:56:16.378 [info] Root hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-03 06:56:16.378 [info] Starting repository upload from scratch.
+2025-06-03 06:56:16.378 [info] Uploading 0 files.
+2025-06-03 06:56:16.379 [info] Total number of files to embed: 0
+2025-06-03 06:56:16.379 [info] Not aborted
+2025-06-03 06:56:16.379 [info] Starting while loop.
+2025-06-03 06:56:20.383 [warning] Retrying ensure index created with timeout 4000. Error:  [deadline_exceeded] the operation timed out
+2025-06-03 06:56:21.701 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-06-03 06:56:21.907 [info] Finished indexing repository.
+2025-06-03 06:56:21.907 [info] Indexing job successfully done or aborted.
+2025-06-03 07:01:13.599 [warning] Failed to get symbolic ref: Failed to execute git
+2025-06-03 07:01:13.658 [warning] Failed to get default branch from git config: Failed to execute git
+2025-06-03 07:01:15.992 [info] multiCodebaseIndexingJob dispose
+2025-06-03 07:01:15.992 [info] Aborting indexing job.
+2025-06-03 07:01:15.992 [info] Setting global status from status tracker: synced
+2025-06-03 07:01:15.992 [info] Doing a startup handshake.
+2025-06-03 07:01:16.005 [info] Finished computing merkle tree in 1.6960150003433228 ms.
+2025-06-03 07:01:16.005 [info] Doing the initial handshake with hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-03 07:01:16.006 [info] Computed simhash vector of length: 0
+2025-06-03 07:01:16.006 [info] Path key hash: a05cb37a407f17fcaf35e924a2f043cf5bebf43fed3675bcfee18f9a592ff9ab
+2025-06-03 07:01:16.006 [info] Handshake start
+2025-06-03 07:01:16.221 [info] Handshake timing: 215.5072490000166, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-06-03 07:01:16.221 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-06-03 07:01:16.222 [info] Starting fast remote sync.
+2025-06-03 07:01:16.222 [info] Total num embeddable files: 0
+2025-06-03 07:01:16.222 [info] Root hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-03 07:01:16.222 [info] Starting repository upload from scratch.
+2025-06-03 07:01:16.223 [info] Uploading 0 files.
+2025-06-03 07:01:16.223 [info] Total number of files to embed: 0
+2025-06-03 07:01:16.223 [info] Not aborted
+2025-06-03 07:01:16.223 [info] Starting while loop.
+2025-06-03 07:01:16.456 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-06-03 07:01:16.824 [info] Finished indexing repository.
+2025-06-03 07:01:16.824 [info] Indexing job successfully done or aborted.
+2025-06-03 07:06:12.755 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'main' does not have any commits yet
+
+2025-06-03 07:06:12.755 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'main' does not have any commits yet
+
+2025-06-03 07:06:13.598 [warning] Failed to get symbolic ref: Failed to execute git
+2025-06-03 07:06:13.655 [warning] Failed to get default branch from git config: Failed to execute git
+2025-06-03 07:06:15.991 [info] multiCodebaseIndexingJob dispose
+2025-06-03 07:06:15.991 [info] Aborting indexing job.
+2025-06-03 07:06:15.991 [info] Setting global status from status tracker: synced
+2025-06-03 07:06:15.991 [info] Doing a startup handshake.
+2025-06-03 07:06:16.003 [info] Finished computing merkle tree in 1.7621989999897778 ms.
+2025-06-03 07:06:16.004 [info] Doing the initial handshake with hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-03 07:06:16.005 [info] Computed simhash vector of length: 0
+2025-06-03 07:06:16.005 [info] Path key hash: a05cb37a407f17fcaf35e924a2f043cf5bebf43fed3675bcfee18f9a592ff9ab
+2025-06-03 07:06:16.005 [info] Handshake start
+2025-06-03 07:06:16.245 [info] Handshake timing: 241.12155100004748, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-06-03 07:06:16.245 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-06-03 07:06:16.246 [info] Starting fast remote sync.
+2025-06-03 07:06:16.246 [info] Total num embeddable files: 0
+2025-06-03 07:06:16.246 [info] Root hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-03 07:06:16.246 [info] Starting repository upload from scratch.
+2025-06-03 07:06:16.247 [info] Uploading 0 files.
+2025-06-03 07:06:16.248 [info] Total number of files to embed: 0
+2025-06-03 07:06:16.248 [info] Not aborted
+2025-06-03 07:06:16.248 [info] Starting while loop.
+2025-06-03 07:06:16.450 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-06-03 07:06:16.652 [info] Finished indexing repository.
+2025-06-03 07:06:16.652 [info] Indexing job successfully done or aborted.
+2025-06-03 07:11:13.599 [warning] Failed to get symbolic ref: Failed to execute git
+2025-06-03 07:11:13.658 [warning] Failed to get default branch from git config: Failed to execute git
+2025-06-03 07:11:15.993 [info] multiCodebaseIndexingJob dispose
+2025-06-03 07:11:15.993 [info] Aborting indexing job.
+2025-06-03 07:11:15.993 [info] Setting global status from status tracker: synced
+2025-06-03 07:11:15.993 [info] Doing a startup handshake.
+2025-06-03 07:11:16.006 [info] Finished computing merkle tree in 1.8526590000838041 ms.
+2025-06-03 07:11:16.006 [info] Doing the initial handshake with hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-03 07:11:16.008 [info] Computed simhash vector of length: 0
+2025-06-03 07:11:16.008 [info] Path key hash: a05cb37a407f17fcaf35e924a2f043cf5bebf43fed3675bcfee18f9a592ff9ab
+2025-06-03 07:11:16.008 [info] Handshake start
+2025-06-03 07:11:16.280 [info] Handshake timing: 272.702027999796, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-06-03 07:11:16.280 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-06-03 07:11:16.280 [info] Starting fast remote sync.
+2025-06-03 07:11:16.280 [info] Total num embeddable files: 0
+2025-06-03 07:11:16.281 [info] Root hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-03 07:11:16.281 [info] Starting repository upload from scratch.
+2025-06-03 07:11:16.281 [info] Uploading 0 files.
+2025-06-03 07:11:16.281 [info] Total number of files to embed: 0
+2025-06-03 07:11:16.281 [info] Not aborted
+2025-06-03 07:11:16.281 [info] Starting while loop.
+2025-06-03 07:11:16.487 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-06-03 07:11:17.713 [info] Finished indexing repository.
+2025-06-03 07:11:17.713 [info] Indexing job successfully done or aborted.
+2025-06-03 07:16:12.756 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'main' does not have any commits yet
+
+2025-06-03 07:16:12.756 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'main' does not have any commits yet
+
+2025-06-03 07:16:13.599 [warning] Failed to get symbolic ref: Failed to execute git
+2025-06-03 07:16:13.657 [warning] Failed to get default branch from git config: Failed to execute git
+2025-06-03 07:16:15.995 [info] multiCodebaseIndexingJob dispose
+2025-06-03 07:16:15.995 [info] Aborting indexing job.
+2025-06-03 07:16:15.995 [info] Setting global status from status tracker: synced
+2025-06-03 07:16:15.995 [info] Doing a startup handshake.
+2025-06-03 07:16:16.009 [info] Finished computing merkle tree in 2.2603859999217093 ms.
+2025-06-03 07:16:16.010 [info] Doing the initial handshake with hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-03 07:16:16.011 [info] Computed simhash vector of length: 0
+2025-06-03 07:16:16.011 [info] Path key hash: a05cb37a407f17fcaf35e924a2f043cf5bebf43fed3675bcfee18f9a592ff9ab
+2025-06-03 07:16:16.011 [info] Handshake start
+2025-06-03 07:16:16.221 [info] Handshake timing: 210.58861899981275, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-06-03 07:16:16.221 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-06-03 07:16:16.221 [info] Starting fast remote sync.
+2025-06-03 07:16:16.221 [info] Total num embeddable files: 0
+2025-06-03 07:16:16.222 [info] Root hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-03 07:16:16.222 [info] Starting repository upload from scratch.
+2025-06-03 07:16:16.222 [info] Uploading 0 files.
+2025-06-03 07:16:16.222 [info] Total number of files to embed: 0
+2025-06-03 07:16:16.222 [info] Not aborted
+2025-06-03 07:16:16.222 [info] Starting while loop.
+2025-06-03 07:16:16.420 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-06-03 07:16:16.623 [info] Finished indexing repository.
+2025-06-03 07:16:16.623 [info] Indexing job successfully done or aborted.
+2025-06-03 07:21:13.599 [warning] Failed to get symbolic ref: Failed to execute git
+2025-06-03 07:21:13.656 [warning] Failed to get default branch from git config: Failed to execute git
+2025-06-03 07:21:15.997 [info] multiCodebaseIndexingJob dispose
+2025-06-03 07:21:15.997 [info] Aborting indexing job.
+2025-06-03 07:21:15.997 [info] Setting global status from status tracker: synced
+2025-06-03 07:21:15.997 [info] Doing a startup handshake.
+2025-06-03 07:21:16.011 [info] Finished computing merkle tree in 1.5880700000561774 ms.
+2025-06-03 07:21:16.011 [info] Doing the initial handshake with hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-03 07:21:16.012 [info] Computed simhash vector of length: 0
+2025-06-03 07:21:16.012 [info] Path key hash: a05cb37a407f17fcaf35e924a2f043cf5bebf43fed3675bcfee18f9a592ff9ab
+2025-06-03 07:21:16.012 [info] Handshake start
+2025-06-03 07:21:16.282 [info] Handshake timing: 270.2168629998341, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-06-03 07:21:16.282 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-06-03 07:21:16.282 [info] Starting fast remote sync.
+2025-06-03 07:21:16.283 [info] Total num embeddable files: 0
+2025-06-03 07:21:16.283 [info] Root hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-03 07:21:16.283 [info] Starting repository upload from scratch.
+2025-06-03 07:21:16.283 [info] Uploading 0 files.
+2025-06-03 07:21:16.284 [info] Total number of files to embed: 0
+2025-06-03 07:21:16.284 [info] Not aborted
+2025-06-03 07:21:16.284 [info] Starting while loop.
+2025-06-03 07:21:16.499 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-06-03 07:21:16.691 [info] Finished indexing repository.
+2025-06-03 07:21:16.691 [info] Indexing job successfully done or aborted.
+2025-06-03 08:26:38.904 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'main' does not have any commits yet
+
+2025-06-03 08:26:38.904 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'main' does not have any commits yet
+
+2025-06-03 08:26:39.754 [warning] Failed to get symbolic ref: Failed to execute git
+2025-06-03 08:26:39.884 [warning] Failed to get default branch from git config: Failed to execute git
+2025-06-03 08:26:42.134 [info] multiCodebaseIndexingJob dispose
+2025-06-03 08:26:42.134 [info] Aborting indexing job.
+2025-06-03 08:26:42.134 [info] Setting global status from status tracker: synced
+2025-06-03 08:26:42.134 [info] Doing a startup handshake.
+2025-06-03 08:26:42.149 [info] Finished computing merkle tree in 2.458331000059843 ms.
+2025-06-03 08:26:42.150 [info] Doing the initial handshake with hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-03 08:26:42.152 [info] Computed simhash vector of length: 0
+2025-06-03 08:26:42.152 [info] Path key hash: a05cb37a407f17fcaf35e924a2f043cf5bebf43fed3675bcfee18f9a592ff9ab
+2025-06-03 08:26:42.152 [info] Handshake start
+2025-06-03 08:26:46.156 [warning] Retrying handshake with timeout 4000. Error:  [deadline_exceeded] the operation timed out
+2025-06-03 08:26:46.156 [info] Handshake start
+2025-06-03 08:26:54.161 [warning] Retrying handshake with timeout 8000. Error:  [deadline_exceeded] the operation timed out
+2025-06-03 08:26:54.161 [info] Handshake start
+2025-06-03 08:27:10.167 [warning] Retrying handshake with timeout 16000. Error:  [deadline_exceeded] the operation timed out
+2025-06-03 08:27:10.167 [info] Handshake start
+2025-06-03 08:27:42.171 [warning] Retrying handshake with timeout 32000. Error:  [deadline_exceeded] the operation timed out
+2025-06-03 08:27:42.171 [info] Handshake start
+2025-06-03 08:28:47.058 [warning] Retrying handshake with timeout 64000. Error:  [deadline_exceeded] the operation timed out
+2025-06-03 08:28:47.058 [info] Handshake start
+2025-06-03 08:30:55.061 [warning] Retrying handshake with timeout 128000. Error:  [deadline_exceeded] the operation timed out
+2025-06-03 08:30:55.061 [error] Handshake failed:
+2025-06-03 08:30:55.062 [error] Error: timeout in handshake with retry
+	at t.RepoClientMultiplexer.tryHandshake (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1403312)
+	at async t.RepoClientMultiplexer.handshakeWithRetry (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1398285)
+	at async v.getServerStatus (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1413473)
+	at async v.startIndexingRepository (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1415139)
+2025-06-03 08:30:55.062 [error] Handshake failed.
+2025-06-03 08:30:55.062 [info] Indexing job successfully done or aborted.
+2025-06-03 08:31:40.642 [warning] Failed to get symbolic ref: Failed to execute git
+2025-06-03 08:31:40.860 [warning] Failed to get default branch from git config: Failed to execute git
+2025-06-03 08:31:43.016 [info] multiCodebaseIndexingJob dispose
+2025-06-03 08:31:43.016 [info] Aborting indexing job.
+2025-06-03 08:31:43.016 [info] Doing a startup handshake.
+2025-06-03 08:31:43.031 [info] Finished computing merkle tree in 2.4587509999983013 ms.
+2025-06-03 08:31:43.032 [info] Doing the initial handshake with hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-03 08:31:43.034 [info] Computed simhash vector of length: 0
+2025-06-03 08:31:43.034 [info] Path key hash: a05cb37a407f17fcaf35e924a2f043cf5bebf43fed3675bcfee18f9a592ff9ab
+2025-06-03 08:31:43.034 [info] Handshake start
+2025-06-03 08:31:47.037 [warning] Retrying handshake with timeout 4000. Error:  [deadline_exceeded] the operation timed out
+2025-06-03 08:31:47.037 [info] Handshake start
+2025-06-03 08:31:55.041 [warning] Retrying handshake with timeout 8000. Error:  [deadline_exceeded] the operation timed out
+2025-06-03 08:31:55.041 [info] Handshake start
+2025-06-03 08:32:11.046 [warning] Retrying handshake with timeout 16000. Error:  [deadline_exceeded] the operation timed out
+2025-06-03 08:32:11.047 [info] Handshake start
+2025-06-03 08:32:43.051 [warning] Retrying handshake with timeout 32000. Error:  [deadline_exceeded] the operation timed out
+2025-06-03 08:32:43.051 [info] Handshake start
+2025-06-03 08:36:36.803 [warning] Retrying handshake with timeout 64000. Error:  [deadline_exceeded] the operation timed out
+2025-06-03 08:36:36.803 [info] Handshake start
+2025-06-04 22:18:21.723 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-06-04 22:18:21.723 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-06-04 22:19:20.722 [warning] Retrying handshake with timeout 128000. Error:  [deadline_exceeded] the operation timed out
+2025-06-04 22:19:20.722 [error] Handshake failed:
+2025-06-04 22:19:20.722 [error] Error: timeout in handshake with retry
+	at t.RepoClientMultiplexer.tryHandshake (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1403312)
+	at async t.RepoClientMultiplexer.handshakeWithRetry (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1398285)
+	at async v.getServerStatus (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1413473)
+	at async v.startIndexingRepository (/tmp/.mount_CursorzzYlI8/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1415139)
+2025-06-04 22:19:20.722 [error] Handshake failed.
+2025-06-04 22:19:20.722 [info] Indexing job successfully done or aborted.
+2025-06-04 22:20:05.452 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'main' does not have any commits yet
+
+2025-06-04 22:20:05.452 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'main' does not have any commits yet
+
+2025-06-04 22:20:06.302 [warning] Failed to get symbolic ref: Failed to execute git
+2025-06-04 22:20:06.440 [warning] Failed to get default branch from git config: Failed to execute git
+2025-06-04 22:20:08.680 [info] multiCodebaseIndexingJob dispose
+2025-06-04 22:20:08.680 [info] Aborting indexing job.
+2025-06-04 22:20:08.680 [info] Doing a startup handshake.
+2025-06-04 22:20:08.696 [info] Finished computing merkle tree in 3.5392769994214177 ms.
+2025-06-04 22:20:08.696 [info] Doing the initial handshake with hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-04 22:20:08.698 [info] Computed simhash vector of length: 0
+2025-06-04 22:20:08.698 [info] Path key hash: a05cb37a407f17fcaf35e924a2f043cf5bebf43fed3675bcfee18f9a592ff9ab
+2025-06-04 22:20:08.698 [info] Handshake start
+2025-06-04 22:20:12.701 [warning] Retrying handshake with timeout 4000. Error:  [deadline_exceeded] the operation timed out
+2025-06-04 22:20:12.702 [info] Handshake start
+2025-06-04 22:20:13.655 [info] Handshake timing: 954.4510599998757, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-06-04 22:20:13.655 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-06-04 22:20:13.655 [info] Starting fast remote sync.
+2025-06-04 22:20:13.655 [info] Total num embeddable files: 0
+2025-06-04 22:20:13.656 [info] Root hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-04 22:20:13.656 [info] Starting repository upload from scratch.
+2025-06-04 22:20:13.656 [info] Uploading 0 files.
+2025-06-04 22:20:13.657 [info] Total number of files to embed: 0
+2025-06-04 22:20:13.657 [info] Not aborted
+2025-06-04 22:20:13.657 [info] Starting while loop.
+2025-06-04 22:20:13.840 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-06-04 22:20:14.034 [info] Finished indexing repository.
+2025-06-04 22:20:14.034 [info] Indexing job successfully done or aborted.
+2025-06-04 22:25:06.302 [warning] Failed to get symbolic ref: Failed to execute git
+2025-06-04 22:25:06.437 [warning] Failed to get default branch from git config: Failed to execute git
+2025-06-04 22:25:08.680 [info] multiCodebaseIndexingJob dispose
+2025-06-04 22:25:08.680 [info] Aborting indexing job.
+2025-06-04 22:25:08.680 [info] Setting global status from status tracker: synced
+2025-06-04 22:25:08.680 [info] Doing a startup handshake.
+2025-06-04 22:25:08.694 [info] Finished computing merkle tree in 2.2316049998626113 ms.
+2025-06-04 22:25:08.695 [info] Doing the initial handshake with hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-04 22:25:08.697 [info] Computed simhash vector of length: 0
+2025-06-04 22:25:08.697 [info] Path key hash: a05cb37a407f17fcaf35e924a2f043cf5bebf43fed3675bcfee18f9a592ff9ab
+2025-06-04 22:25:08.697 [info] Handshake start
+2025-06-04 22:25:10.042 [info] Handshake timing: 1344.803399999626, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-06-04 22:25:10.042 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-06-04 22:25:10.042 [info] Starting fast remote sync.
+2025-06-04 22:25:10.042 [info] Total num embeddable files: 0
+2025-06-04 22:25:10.043 [info] Root hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-04 22:25:10.043 [info] Starting repository upload from scratch.
+2025-06-04 22:25:10.043 [info] Uploading 0 files.
+2025-06-04 22:25:10.044 [info] Total number of files to embed: 0
+2025-06-04 22:25:10.044 [info] Not aborted
+2025-06-04 22:25:10.044 [info] Starting while loop.
+2025-06-04 22:25:11.456 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-06-04 22:25:11.630 [info] Finished indexing repository.
+2025-06-04 22:25:11.630 [info] Indexing job successfully done or aborted.
+2025-06-04 22:30:06.282 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'main' does not have any commits yet
+
+2025-06-04 22:30:06.282 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'main' does not have any commits yet
+
+2025-06-04 22:30:07.133 [warning] Failed to get symbolic ref: Failed to execute git
+2025-06-04 22:30:07.267 [warning] Failed to get default branch from git config: Failed to execute git
+2025-06-04 22:30:09.512 [info] multiCodebaseIndexingJob dispose
+2025-06-04 22:30:09.512 [info] Aborting indexing job.
+2025-06-04 22:30:09.512 [info] Setting global status from status tracker: synced
+2025-06-04 22:30:09.512 [info] Doing a startup handshake.
+2025-06-04 22:30:09.526 [info] Finished computing merkle tree in 2.1713649993762374 ms.
+2025-06-04 22:30:09.527 [info] Doing the initial handshake with hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-04 22:30:09.528 [info] Computed simhash vector of length: 0
+2025-06-04 22:30:09.528 [info] Path key hash: a05cb37a407f17fcaf35e924a2f043cf5bebf43fed3675bcfee18f9a592ff9ab
+2025-06-04 22:30:09.528 [info] Handshake start
+2025-06-04 22:30:09.882 [info] Handshake timing: 354.91502299997956, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-06-04 22:30:09.883 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-06-04 22:30:09.883 [info] Starting fast remote sync.
+2025-06-04 22:30:09.883 [info] Total num embeddable files: 0
+2025-06-04 22:30:09.884 [info] Root hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-04 22:30:09.884 [info] Starting repository upload from scratch.
+2025-06-04 22:30:09.884 [info] Uploading 0 files.
+2025-06-04 22:30:09.885 [info] Total number of files to embed: 0
+2025-06-04 22:30:09.885 [info] Not aborted
+2025-06-04 22:30:09.885 [info] Starting while loop.
+2025-06-04 22:30:10.095 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-06-04 22:30:11.109 [info] Finished indexing repository.
+2025-06-04 22:30:11.109 [info] Indexing job successfully done or aborted.
+2025-06-04 22:35:07.132 [warning] Failed to get symbolic ref: Failed to execute git
+2025-06-04 22:35:07.264 [warning] Failed to get default branch from git config: Failed to execute git
+2025-06-04 22:35:09.512 [info] multiCodebaseIndexingJob dispose
+2025-06-04 22:35:09.512 [info] Aborting indexing job.
+2025-06-04 22:35:09.512 [info] Setting global status from status tracker: synced
+2025-06-04 22:35:09.512 [info] Doing a startup handshake.
+2025-06-04 22:35:09.526 [info] Finished computing merkle tree in 2.3227070001885295 ms.
+2025-06-04 22:35:09.527 [info] Doing the initial handshake with hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-04 22:35:09.529 [info] Computed simhash vector of length: 0
+2025-06-04 22:35:09.529 [info] Path key hash: a05cb37a407f17fcaf35e924a2f043cf5bebf43fed3675bcfee18f9a592ff9ab
+2025-06-04 22:35:09.529 [info] Handshake start
+2025-06-04 22:35:10.520 [info] Handshake timing: 991.8566899998114, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-06-04 22:35:10.520 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-06-04 22:35:10.520 [info] Starting fast remote sync.
+2025-06-04 22:35:10.521 [info] Total num embeddable files: 0
+2025-06-04 22:35:10.521 [info] Root hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-04 22:35:10.521 [info] Starting repository upload from scratch.
+2025-06-04 22:35:10.522 [info] Uploading 0 files.
+2025-06-04 22:35:10.522 [info] Total number of files to embed: 0
+2025-06-04 22:35:10.522 [info] Not aborted
+2025-06-04 22:35:10.522 [info] Starting while loop.
+2025-06-04 22:35:11.178 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-06-04 22:35:12.162 [info] Finished indexing repository.
+2025-06-04 22:35:12.162 [info] Indexing job successfully done or aborted.
+2025-06-05 09:07:44.451 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'main' does not have any commits yet
+
+2025-06-05 09:07:44.451 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'main' does not have any commits yet
+
+2025-06-05 09:07:45.295 [warning] Failed to get symbolic ref: Failed to execute git
+2025-06-05 09:07:45.434 [warning] Failed to get default branch from git config: Failed to execute git
+2025-06-05 09:07:47.675 [info] multiCodebaseIndexingJob dispose
+2025-06-05 09:07:47.675 [info] Aborting indexing job.
+2025-06-05 09:07:47.675 [info] Setting global status from status tracker: synced
+2025-06-05 09:07:47.675 [info] Doing a startup handshake.
+2025-06-05 09:07:47.690 [info] Finished computing merkle tree in 2.471311000175774 ms.
+2025-06-05 09:07:47.691 [info] Doing the initial handshake with hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-06-05 09:07:47.692 [info] Computed simhash vector of length: 0
+2025-06-05 09:07:47.692 [info] Path key hash: a05cb37a407f17fcaf35e924a2f043cf5bebf43fed3675bcfee18f9a592ff9ab
+2025-06-05 09:07:47.692 [info] Handshake start
+2025-06-05 09:07:51.695 [warning] Retrying handshake with timeout 4000. Error:  [deadline_exceeded] the operation timed out
+2025-06-05 09:07:51.695 [info] Handshake start
+2025-06-05 09:07:59.697 [warning] Retrying handshake with timeout 8000. Error:  [deadline_exceeded] the operation timed out
+2025-06-05 09:07:59.697 [info] Handshake start
+2025-06-05 09:08:15.704 [warning] Retrying handshake with timeout 16000. Error:  [deadline_exceeded] the operation timed out
+2025-06-05 09:08:15.704 [info] Handshake start

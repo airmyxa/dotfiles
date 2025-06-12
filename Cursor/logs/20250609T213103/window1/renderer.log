@@ -1,0 +1,51 @@
+2025-06-09 21:31:07.427 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-09 21:31:07.428 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-09 21:31:07.428 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-09 21:31:07.429 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-09 21:31:07.429 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-09 21:31:07.429 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-09 21:31:07.429 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-09 21:31:07.430 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-09 21:31:07.430 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-09 21:31:07.492 [warning] Missing property "modes" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-06-09 21:31:07.493 [warning] Missing property "modes2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-06-09 21:31:07.493 [warning] Missing property "modes3" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-06-09 21:31:07.493 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-06-09 21:31:07.493 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-06-09 21:31:08.422 [info] Started local extension host with pid 187146.
+2025-06-09 21:31:09.159 [warning] No search provider registered for scheme: file, waiting
+2025-06-09 21:31:10.149 [error] [Extension Host] (node:187146) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-06-09 21:31:10.711 [error] Bundled Anysphere extension 'anysphere.remote-ssh' not found
+2025-06-09 21:31:10.712 [error] Bundled Anysphere extension 'anysphere.remote-wsl' not found
+2025-06-09 21:31:10.712 [error] Bundled Anysphere extension 'anysphere.remote-containers' not found
+2025-06-09 21:31:12.751 [info] [perf] Render performance baseline is 19ms
+2025-06-09 22:34:09.617 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2771:205877)
+    at async Object.getTeams (vscode-file://vscode-app/tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async egt.getTeams (vscode-file://vscode-app/tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:203605)
+    at async egt.refreshMembershipType (vscode-file://vscode-app/tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:196912) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-06-11 07:14:13.461 [error] [network] #24: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-06-11 07:14:13.461 [error] [network] #23: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-06-11 07:15:49.008 [error] [1eb] potential listener LEAK detected, having 175 listeners already. MOST frequent listener (1):: Error
+    at tFn.create (vscode-file://vscode-app/tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:44:11486)
+    at H4i.q (vscode-file://vscode-app/tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:46:1377)
+    at Object.R [as runAndSubscribe] (vscode-file://vscode-app/tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:44:9385)
+    at new Cat (vscode-file://vscode-app/tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:93:3498)
+    at I7i.o (vscode-file://vscode-app/tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3653:1592)
+    at I7i.createInstance (vscode-file://vscode-app/tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3653:1089)
+    at new Zat (vscode-file://vscode-app/tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:241:5862)
+    at I7i.o (vscode-file://vscode-app/tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3653:1592)
+    at I7i.createInstance (vscode-file://vscode-app/tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3653:1089)
+    at ilt.O (vscode-file://vscode-app/tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:247:6417) [1eb] potential listener LEAK detected, having 175 listeners already. MOST frequent listener (1):
+2025-06-11 07:19:23.514 [error] [196] potential listener LEAK detected, having 175 listeners already. MOST frequent listener (1):: Error
+    at tFn.create (vscode-file://vscode-app/tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:44:11486)
+    at c5n.q [as onDidChange] (vscode-file://vscode-app/tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:46:1377)
+    at new H4n (vscode-file://vscode-app/tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2675:12385)
+    at P6i.registerEditorListenersToEditor (vscode-file://vscode-app/tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5315:23855)
+    at efe.value (vscode-file://vscode-app/tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5315:22703)
+    at B (vscode-file://vscode-app/tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:46:2392)
+    at B.C (vscode-file://vscode-app/tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:46:2462)
+    at B.fire (vscode-file://vscode-app/tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:46:2680)
+    at Pwi.addCodeEditor (vscode-file://vscode-app/tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3272:18448)
+    at new gh (vscode-file://vscode-app/tmp/.mount_CursorSSb32I/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:291:12175) [196] potential listener LEAK detected, having 175 listeners already. MOST frequent listener (1):

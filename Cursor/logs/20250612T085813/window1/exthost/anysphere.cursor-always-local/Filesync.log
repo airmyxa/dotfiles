@@ -1,0 +1,45 @@
+2025-06-12 08:58:18.306 [error] Failed to check if file sync is enabled for user {}
+2025-06-12 08:58:18.306 [error] Failed to fetch fsConfig File sync is disabled
+2025-06-12 08:58:18.306 [error] Failed to fetch fsConfig File sync is disabled
+2025-06-12 08:58:18.355 [info] [registerEventListeners] Registering event listeners
+2025-06-12 08:58:19.900 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-12 08:58:20.106 [info] Fetched fsConfig in 204.86992199999986ms
+2025-06-12 08:58:20.106 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-12 08:58:23.386 [info] Uploaded file internal/config/service_test.go modelVersion=4 in 251.05694700000004ms
+2025-06-12 08:58:24.231 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-12 08:58:24.778 [info] Fetched fsConfig in 547.0082549999988ms
+2025-06-12 08:58:24.779 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-12 08:58:24.779 [info] File sync enabled status: true
+2025-06-12 08:58:24.779 [info] Starting sync of visible tabs
+2025-06-12 08:58:24.779 [info] Synced all visible tabs in 0.40189599999939674ms
+2025-06-12 08:58:25.069 [info] Starting sync of visible tabs
+2025-06-12 08:58:25.246 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-12 08:58:25.248 [info] Uploaded file internal/config/service_test.go modelVersion=4 in 178.40705300000081ms
+2025-06-12 08:58:25.248 [info] Synced all visible tabs in 180.0334210000001ms
+2025-06-12 08:58:25.412 [info] Fetched fsConfig in 165.45449999999983ms
+2025-06-12 08:58:25.412 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-12 08:58:33.853 [info] Handled visible editors change in 0.46222000000125263ms
+2025-06-12 08:58:34.271 [info] Uploaded file internal/grpc/server.go modelVersion=1 in 185.36307599999782ms
+2025-06-12 08:58:34.272 [info] Handled visible editors change in 352.2861950000006ms
+2025-06-12 09:02:03.816 [info] Handled visible editors change in 0.7236290000146255ms
+2025-06-12 09:02:08.597 [info] Handled visible editors change in 1.0258350000076462ms
+2025-06-12 09:03:22.372 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-12 09:03:22.538 [info] Fetched fsConfig in 165.37969700002577ms
+2025-06-12 09:03:22.538 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-12 09:03:22.538 [info] File sync enabled status: true
+2025-06-12 09:03:22.538 [info] Starting sync of visible tabs
+2025-06-12 09:03:22.538 [info] Synced all visible tabs in 0.21066199999768287ms
+2025-06-12 09:06:02.244 [info] Handled visible editors change in 0.3666990000056103ms
+2025-06-12 09:06:02.990 [info] Uploaded file internal/config/service_test.go modelVersion=4 in 606.438467000029ms
+2025-06-12 09:06:02.990 [info] Handled visible editors change in 705.3467390000005ms
+2025-06-12 09:06:09.471 [info] Handled visible editors change in 0.4623520000022836ms
+2025-06-12 09:06:09.811 [info] Uploaded file cmd/server/main_test.go modelVersion=1 in 182.31361700000707ms
+2025-06-12 09:06:09.811 [info] Handled visible editors change in 276.35630300000776ms
+2025-06-12 09:06:58.864 [info] Uploaded file internal/database/mock_provider.go modelVersion=1 in 164.44326500000898ms
+2025-06-12 09:06:58.864 [info] Handled visible editors change in 188.2425130000338ms
+2025-06-12 09:07:00.873 [info] Handled visible editors change in 0.6912180000217631ms
+2025-06-12 09:07:12.257 [info] Handled visible editors change in 0.3152809999883175ms
+2025-06-12 09:07:12.327 [info] Handled visible editors change in 1.0251050000078976ms
+2025-06-12 09:07:30.225 [info] Handled visible editors change in 0.38082700001541525ms
+2025-06-12 09:07:30.574 [info] Uploaded file internal/database/test_provider.go modelVersion=1 in 183.6754410000285ms
+2025-06-12 09:07:30.574 [info] Handled visible editors change in 296.2064080000855ms
