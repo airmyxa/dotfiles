@@ -479,3 +479,24 @@ fatal: path '.cursor/environment.json' does not exist in 'origin/main'
 2025-06-12 14:21:54.768 [info] Finishing sync (hasUpdates: false, isErr: false)
 2025-06-12 14:21:54.966 [info] Finished indexing repository.
 2025-06-12 14:21:54.966 [info] Indexing job successfully done or aborted.
+2025-06-12 14:26:47.021 [info] Get user commits took 33.84232100006193ms for 10 commits
+2025-06-12 14:26:48.433 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-06-12 14:26:54.354 [info] multiCodebaseIndexingJob dispose
+2025-06-12 14:26:54.354 [info] Aborting indexing job.
+2025-06-12 14:26:54.354 [info] Setting global status from status tracker: synced
+2025-06-12 14:26:54.354 [info] Doing a startup handshake.
+2025-06-12 14:26:54.369 [info] Finished computing merkle tree in 2.5450640004128218 ms.
+2025-06-12 14:26:54.370 [info] Doing the initial handshake with hash: 0030300c6ef61a7baeba70cecdd3c5e969637c35c03d2ff32295744b283c231e
+2025-06-12 14:26:54.372 [info] Computed simhash vector of length: 256
+2025-06-12 14:26:54.372 [info] Path key hash: a05cb37a407f17fcaf35e924a2f043cf5bebf43fed3675bcfee18f9a592ff9ab
+2025-06-12 14:26:54.372 [info] Handshake start
+2025-06-12 14:26:54.615 [info] Handshake timing: 244.0117229996249, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-06-12 14:26:54.615 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a57d89c8-5aac-4b43-8c3c-9bcf822303be","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-06-12 14:26:54.615 [info] Starting fast remote sync.
+2025-06-12 14:26:54.615 [info] Total num embeddable files: 31
+2025-06-12 14:26:54.616 [info] Root hash: 0030300c6ef61a7baeba70cecdd3c5e969637c35c03d2ff32295744b283c231e
+2025-06-12 14:26:54.617 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-06-12 14:26:54.820 [info] Finished indexing repository.
+2025-06-12 14:26:54.820 [info] Indexing job successfully done or aborted.

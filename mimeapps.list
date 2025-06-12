@@ -1,0 +1,25 @@
+[Default Applications]
+x-scheme-handler/http=userapp-Firefox-S51G12.desktop
+x-scheme-handler/https=userapp-Firefox-S51G12.desktop
+x-scheme-handler/chrome=userapp-Firefox-S51G12.desktop
+text/html=userapp-Firefox-S51G12.desktop
+application/x-extension-htm=userapp-Firefox-S51G12.desktop
+application/x-extension-html=userapp-Firefox-S51G12.desktop
+application/x-extension-shtml=userapp-Firefox-S51G12.desktop
+application/xhtml+xml=userapp-Firefox-S51G12.desktop
+application/x-extension-xhtml=userapp-Firefox-S51G12.desktop
+application/x-extension-xht=userapp-Firefox-S51G12.desktop
+image/png=userapp-Firefox-S51G12.desktop
+
+[Added Associations]
+x-scheme-handler/http=userapp-Firefox-S51G12.desktop;
+x-scheme-handler/https=userapp-Firefox-S51G12.desktop;
+x-scheme-handler/chrome=userapp-Firefox-S51G12.desktop;
+text/html=userapp-Firefox-S51G12.desktop;
+application/x-extension-htm=userapp-Firefox-S51G12.desktop;
+application/x-extension-html=userapp-Firefox-S51G12.desktop;
+application/x-extension-shtml=userapp-Firefox-S51G12.desktop;
+application/xhtml+xml=userapp-Firefox-S51G12.desktop;
+application/x-extension-xhtml=userapp-Firefox-S51G12.desktop;
+application/x-extension-xht=userapp-Firefox-S51G12.desktop;
+image/png=userapp-Firefox-S51G12.desktop
