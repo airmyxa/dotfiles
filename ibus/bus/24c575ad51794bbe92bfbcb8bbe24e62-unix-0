@@ -1,7 +1,0 @@
-# This file is created by ibus-daemon, please do not modify it.
-# This file allows processes on the machine to find the
-# ibus session bus with the below address.
-# If the IBUS_ADDRESS environment variable is set, it will
-# be used rather than this file.
-IBUS_ADDRESS=unix:path=/home/airmyxa/.cache/ibus/dbus-ckeVBqsl,guid=1fbc26b9e2f950cf7abf9cea684a9732
-IBUS_DAEMON_PID=3849
