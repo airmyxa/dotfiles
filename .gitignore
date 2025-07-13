@@ -1,5 +1,7 @@
 *
 
+!ibus
+!dconf
 !alacritty
 !bat
 !bottom
@@ -18,5 +20,6 @@
 !waybar
 !yazi
 !zellij
+!Cursor
 !.ignore
 

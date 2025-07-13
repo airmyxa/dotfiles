@@ -23,8 +23,9 @@ set $menu wmenu-run
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 output * bg ~/Pictures/background.jpg fill
 # output eDP-1 adaptive_sync on -- doesn't work
-output eDP-1 mode 2880x1800@60Hz
+# output eDP-1 mode 2880x1800@60Hz
 output eDP-1 subpixel vrgb
+output eDP-1 scale_filter smart
 # output eDP-1 scale 1
 #
 # Example configuration:
@@ -94,6 +95,9 @@ output eDP-1 subpixel vrgb
 
     # Exit sway (logs you out of your Wayland session)
     bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
+
+		# Quick add for todoist
+		bindsym $mod+a exec fish -c 'tq (oneline-wofi 2> /dev/null)'
 #
 # Moving around:
 #
@@ -169,7 +173,7 @@ output eDP-1 subpixel vrgb
     bindsym $mod+space focus mode_toggle
 
     # Move focus to the parent container
-    bindsym $mod+a focus parent
+    # bindsym $mod+a focus parent
 #
 # Scratchpad:
 #
@@ -222,7 +226,8 @@ bindsym $mod+r mode "resize"
     bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%-
     bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
     # Special key to take a screenshot with grim
-    bindsym Print exec grim
+    bindsym Print exec grim -g "$(slurp)" - | wl-copy
+    bindsym Shift+Print exec grim -g "$(slurp)"
 
 # cursor
 set $gnome-schema org.gnome.desktop.interface
@@ -235,6 +240,7 @@ exec_always {
 
 # Mouse
 seat seat0 xcursor_theme Bibata-Modern-Classic 16
+
 exec pipewire
 exec swaync
 bindsym $mod+Shift+n exec swaync-client -t -sw

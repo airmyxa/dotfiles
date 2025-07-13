@@ -1,7 +1,8 @@
-export PATH=$HOME/bin:/usr/local/bin:$HOME/.cargo/bin:/usr/bin:/bin:/sbin:$HOME/go/bin:$HOME/.local/share/nvm/v22.14.0/bin:$PATH:
+export PATH=$HOME/bin:/usr/local/bin:$HOME/.cargo/bin:/usr/bin:/bin:/sbin:$HOME/go/bin:$HOME/.local/share/nvm/v22.14.0/bin:/snap/bin:$PATH:
 export BAT_THEME="Catppuccin Mocha"
 export MANPAGER="nvim +Man!"
 export GOPATH=$HOME/go
+export ELECTRON_OZONE_PLATFORM_HINT=wayland
 
 if status is-interactive
     # Commands to run in interactive sessions can go here
