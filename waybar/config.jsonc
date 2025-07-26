@@ -10,26 +10,24 @@
         "sway/workspaces",
         "sway/mode",
         "sway/scratchpad",
-        "custom/media"
+        "custom/media",
+        "network"
     ],
     "modules-center": [
-        "sway/window"
+        "clock"
     ],
     "modules-right": [
         "mpd",
         "idle_inhibitor",
 				"wireplumber",
-        "network",
         "power-profiles-daemon",
         "cpu",
         "memory",
         "temperature",
         "backlight",
-        "keyboard-state",
         "sway/language",
         "battery",
         "battery#bat2",
-        "clock",
         "tray",
         "custom/power"
     ],
@@ -51,8 +49,8 @@
      //    }
      //},
     "keyboard-state": {
-        "numlock": true,
-        "capslock": true,
+        "numlock": false,
+        "capslock": false,
         "format": "{name} {icon}",
         "format-icons": {
             "locked": "",
@@ -108,6 +106,7 @@
     },
     "clock": {
         // "timezone": "America/New_York",
+        "format": "{:%d %H:%M}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": "{:%Y-%m-%d}"
     },

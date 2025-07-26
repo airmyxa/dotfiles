@@ -17,3 +17,6 @@ end
 # But fish need to support it's keybindings also.
 bind \u001bB backward-bigword
 bind \u001bF forward-bigword
+
+# opencode
+fish_add_path /home/airmyxa/.opencode/bin
