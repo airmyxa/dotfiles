@@ -226,6 +226,18 @@ label:focus {
     background-color: #ffa000;
 }
 
+#custom-power {
+    background-color: #e74c3c;
+    color: #ffffff;
+    padding: 0 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+#custom-power:hover {
+    background-color: #c0392b;
+}
+
 #temperature {
     background-color: #f0932b;
 }
