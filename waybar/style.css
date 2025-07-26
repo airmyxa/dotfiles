@@ -227,15 +227,15 @@ label:focus {
 }
 
 #custom-power {
-    background-color: #e74c3c;
+    background-color: transparent;
     color: #ffffff;
     padding: 0 10px;
     margin-left: 5px;
-    border-radius: 5px;
+    border-radius: 0;
 }
 
 #custom-power:hover {
-    background-color: #c0392b;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 #temperature {
