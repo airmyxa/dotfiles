@@ -9,11 +9,20 @@ return {
         javascript = { "prettier", "prettier", stop_after_first = true },
         json = { "prettier" },
         go = { "gofmt", "goimports", "golines" },
+        cpp = { "ya_format" },
       },
-      -- format_on_save = {
-      --   timeout_ms = 3000,
-      --   lsp_format = "fallback",
-      -- },
+      formatters = {
+        ya_format = {
+          command = "ya",
+          args = { "tool", "tt", "format", "$FILENAME" },
+          stdin = false,
+        },
+        -- Add 'condition' that file is in arcadia
+      },
+      format_on_save = {
+        timeout_ms = 3000,
+        lsp_format = "fallback",
+      },
     },
     event = { "BufWritePre" },
     cmd = { "ConformInfo" },

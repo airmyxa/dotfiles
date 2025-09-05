@@ -2,8 +2,8 @@
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
 
-vim.keymap.set("n", "<S-j>", "5<C-e>5j")
-vim.keymap.set("n", "<S-k>", "5<C-y>5k")
+-- vim.keymap.set("n", "<S-j>", "5<C-e>5j")
+-- vim.keymap.set("n", "<S-k>", "5<C-y>5k")
 
 -- Move to window using the <ctrl> hjkl keys
 vim.keymap.set("n", "<C-h>", "<C-w>h", { desc = "Go to Left Window", remap = true })
