@@ -110,6 +110,7 @@ return {
       end
     end,
   },
+  { "j-hui/fidget.nvim", opts = {} },
   -- then: setup supertab in cmp
   {
     "hrsh7th/nvim-cmp",
