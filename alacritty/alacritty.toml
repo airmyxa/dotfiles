@@ -41,4 +41,21 @@ option_as_alt = "OnlyLeft"
 background = "#1d1f21"
 foreground = "#c5c8c6"
 
+# --- Open links with Ctrl+Click even inside tmux ---
+[hints]
+
+# 1) OSC-8 hyperlinks (anchor text like "Grafana dashboard")
+[[hints.enabled]]
+hyperlinks = true
+command = "open"                  # macOS; on Linux use: xdg-open
+post_processing = true
+mouse = { enabled = true, mods = "Command" }  # Ctrl+Click to open
+
+# 2) (Optional) raw printed URLs for tools that don't use OSC-8
+[[hints.enabled]]
+regex = "(mailto:|git:|ssh:|ftp:|https:|http:|file:)\\S+"
+command = "open"
+post_processing = true
+mouse = { enabled = true, mods = "Command" }
+
 [terminal]

@@ -10,9 +10,22 @@ return {
         json = { "prettier" },
         go = { "gofmt", "goimports", "golines" },
       },
-      format_on_save = {
-        timeout_ms = 3000,
-        lsp_format = "fallback",
+      -- format_on_save = {
+      --   timeout_ms = 3000,
+      --   lsp_format = "fallback",
+      -- },
+    },
+    event = { "BufWritePre" },
+    cmd = { "ConformInfo" },
+    keys = {
+      {
+        -- Customize or remove this keymap to your liking
+        "<leader>cf",
+        function()
+          require("conform").format({ async = true })
+        end,
+        mode = "",
+        desc = "Format buffer",
       },
     },
   },
