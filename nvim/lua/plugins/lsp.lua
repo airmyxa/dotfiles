@@ -23,16 +23,25 @@ return {
     opts = {
       servers = {
         clangd = {
-          cmd = {
-            "clangd",
-            "--background-index",
-            "--clang-tidy",
-            "--header-insertion=iwyu",
-            "--completion-style=detailed",
-            "--function-arg-placeholders",
-            "--fallback-style=llvm",
-            "--query-driver=/usr/bin/clang++",
-          },
+          cmd = (function()
+            -- allow both AppleClang and Homebrew clang drivers
+            local drivers = table.concat({
+              "/usr/bin/clang",
+              "/usr/bin/clang++",
+              "/opt/homebrew/opt/llvm/bin/clang",
+              "/opt/homebrew/opt/llvm/bin/clang++",
+            }, ",")
+            return {
+              "clangd",
+              "--background-index",
+              "--clang-tidy",
+              "--header-insertion=iwyu",
+              "--completion-style=detailed",
+              "--function-arg-placeholders",
+              "--fallback-style=llvm",
+              "--query-driver=" .. drivers,
+            }
+          end)(),
           keys = {
             { "<leader>ch", "<cmd>ClangdSwitchSourceHeader<cr>", desc = "Switch Source/Header (C/C++)" },
           },
@@ -49,11 +58,21 @@ return {
               fname
             ) or require("lspconfig.util").find_git_ancestor(fname)
           end,
-          init_options = {
-            usePlaceholders = true,
-            completeUnimported = true,
-            clangdFileStatus = true,
-          },
+          init_options = (function()
+            local sdk = vim.fn.trim(vim.fn.system("xcrun --show-sdk-path"))
+            local flags = { "-std=c++20" }
+            if sdk ~= "" then
+              table.insert(flags, "-isysroot")
+              table.insert(flags, sdk)
+              table.insert(flags, "-I" .. sdk .. "/usr/include/c++/v1")
+            end
+            return {
+              usePlaceholders = true,
+              completeUnimported = true,
+              clangdFileStatus = true,
+              fallbackFlags = flags,
+            }
+          end)(),
           autostart = true,
           setup = {
             clangd = function(_, opts)
@@ -101,6 +120,56 @@ return {
             },
           },
         },
+        jedi_language_server = {
+          cmd = { "jedi-language-server" }, -- ensure it's on PATH (pipx/pip/Mason)
+          filetypes = { "python" },
+          root_dir = function(fname)
+            local util = require("lspconfig.util")
+            return util.root_pattern("pyproject.toml", "setup.cfg", "setup.py", "Pipfile", "requirements.txt", ".git")(
+              fname
+            )
+          end,
+          -- Jedi expects initializationOptions -> use init_options in lspconfig
+          init_options = {
+            markupKindPreferred = "markdown",
+            completion = { disableSnippets = false, resolveEagerly = false, ignorePatterns = {} },
+            diagnostics = { enable = true, didOpen = true, didChange = true, didSave = true },
+            jediSettings = { caseInsensitiveCompletion = true, autoImportModules = {} },
+            workspace = {
+              environmentPath = nil, -- filled dynamically in before_init
+              extraPaths = {},
+              symbols = { ignoreFolders = { ".nox", ".tox", ".venv", "__pycache__", "venv" }, maxSymbols = 20 },
+            },
+            semanticTokens = { enable = false },
+            hover = { enable = true },
+            codeAction = { nameExtractVariable = "jls_extract_var", nameExtractFunction = "jls_extract_def" },
+          },
+          -- pick the right interpreter (venv > python3 > python)
+          before_init = function(_, config)
+            local function detect_python()
+              local sep = package.config:sub(1, 1)
+              local venv = vim.env.VIRTUAL_ENV
+              if venv and venv ~= "" then
+                local candidate = venv .. (sep == "\\" and "\\Scripts\\python.exe" or "/bin/python")
+                if vim.fn.executable(candidate) == 1 or vim.fn.filereadable(candidate) == 1 then
+                  return candidate
+                end
+              end
+              local py3 = vim.fn.exepath("python3")
+              if py3 ~= "" then
+                return py3
+              end
+              local py = vim.fn.exepath("python")
+              if py ~= "" then
+                return py
+              end
+              return "python3"
+            end
+            config.init_options = config.init_options or {}
+            config.init_options.workspace = config.init_options.workspace or {}
+            config.init_options.workspace.environmentPath = detect_python()
+          end,
+        },
       },
     },
     config = function(_, opts)
@@ -108,6 +177,22 @@ return {
       for server, server_opts in pairs(opts.servers) do
         lspconfig[server].setup(server_opts)
       end
+    end,
+  },
+  {
+    "segoon/yamake-python-lspconfig.nvim",
+    config = function(_, opts)
+      require("yamake-python-lspconfig").setup({
+        -- autorestart LSP after pyrightconfig.json (re)generation
+        autorestart_lsp = true,
+        -- do not ask for "generate config?" if it is missing
+        autogenerate_config = false,
+        -- root directory for dummy vscode ide project
+        ide_rootdir = os.getenv("HOME") .. "/.local/share/nvim/yamake-python-lspconfig",
+        -- if true, generate pyrightconfig.json file near ya.make
+        -- if false, generate it in `ide_rootdir` subdirectory
+        is_config_in_arcadia = false,
+      })
     end,
   },
   { "j-hui/fidget.nvim", opts = {} },
