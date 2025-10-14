@@ -24,7 +24,7 @@ set $menu wmenu-run
 output * bg ~/Pictures/background.jpg fill
 # output eDP-1 adaptive_sync on -- doesn't work
 # output eDP-1 mode 2880x1800@60Hz
-output eDP-1 subpixel vrgb
+output eDP-1 subpixel none
 output eDP-1 scale_filter smart
 # output eDP-1 scale 1
 #
