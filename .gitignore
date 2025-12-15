@@ -1,0 +1,211 @@
+# Dotfiles .gitignore
+# This file helps maintain a clean public dotfiles repository
+# by excluding sensitive data, caches, logs, and runtime files
+
+# ============================================================================
+# General Patterns
+# ============================================================================
+
+# Cache directories
+**/Cache/
+**/cache/
+**/.cache/
+**/CachedData/
+**/Code Cache/
+**/GPUCache/
+**/DawnGraphiteCache/
+**/DawnWebGPUCache/
+
+# Log files
+*.log
+**/*.log
+**/logs/
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+*.sqlite
+*.sqlite3
+*.leveldb/
+**/IndexedDB/
+
+# Session and storage files
+**/Local Storage/
+**/Session Storage/
+**/SharedStorage
+**/SharedStorage-wal
+
+# Cookies and tokens
+**/Cookies
+**/Cookies-journal
+**/*Cookie*
+**/Trust Tokens
+**/Trust Tokens-journal
+**/upload.token
+
+# Application state and preferences that change frequently
+**/SingletonLock
+**/SingletonSocket
+**/SingletonCookie
+**/TransportSecurity
+**/Network Persistent State
+
+# Crash reports and dumps
+**/Crash Reports/
+**/Crashpad/
+*.dmp
+
+# Shared dictionaries
+**/Shared Dictionary/
+
+# Telemetry
+**/telemetry/
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+*.old
+
+# ============================================================================
+# Application-Specific
+# ============================================================================
+
+# Bitwarden (password manager - NEVER commit!)
+Bitwarden/
+Bitwarden CLI/
+rbw/
+
+# Browser data
+.mozilla/
+**/Partitions/
+
+# NVM (node version manager - too large, user-specific)
+nvm/
+
+# Obsidian runtime data
+obsidian/Cache/
+obsidian/Code Cache/
+obsidian/Cookies
+obsidian/Cookies-journal
+obsidian/DIPS
+obsidian/DIPS-wal
+obsidian/*.asar
+obsidian/*.log
+obsidian/id
+obsidian/8923b989e89e2fd8.json
+obsidian/SingletonCookie
+obsidian/SingletonLock
+obsidian/SingletonSocket
+obsidian/IndexedDB/
+obsidian/Local Storage/
+obsidian/Session Storage/
+obsidian/Shared Dictionary/
+obsidian/SharedStorage
+obsidian/SharedStorage-wal
+obsidian/TransportSecurity
+obsidian/Trust Tokens
+obsidian/Trust Tokens-journal
+obsidian/Network Persistent State
+obsidian/Preferences
+obsidian/WebStorage/
+obsidian/GPUCache/
+obsidian/DawnGraphiteCache/
+obsidian/DawnWebGPUCache/
+obsidian/Dictionaries/
+
+# Bruno (API client)
+bruno/Cache/
+bruno/Code Cache/
+bruno/Cookies
+bruno/Cookies-journal
+bruno/DIPS
+bruno/*.log
+bruno/logs/
+bruno/Crashpad/
+bruno/IndexedDB/
+bruno/Local Storage/
+bruno/Session Storage/
+bruno/Shared Dictionary/
+bruno/SharedStorage
+bruno/TransportSecurity
+bruno/Trust Tokens
+bruno/Trust Tokens-journal
+bruno/Network Persistent State
+bruno/WebStorage/
+bruno/GPUCache/
+bruno/DawnGraphiteCache/
+bruno/DawnWebGPUCache/
+bruno/Dictionaries/
+bruno/.updaterId
+bruno/ui-state-snapshot.json
+bruno/cookies.json
+bruno/Preferences
+bruno/preferences.json
+bruno/collection-security.json
+
+# Spotify
+spotify/
+
+# Todoist
+todoist/
+
+# Simplex
+simplex/
+
+# Go telemetry
+go/
+
+# dconf (binary database)
+dconf/user
+
+# Pulse audio (auto-generated)
+pulse/
+
+# KDE/Dolphin
+dolphinrc
+baloofileinformationrc
+
+# mimeapps (auto-generated)
+mimeapps.list
+
+# Keymapp
+.keymapp/
+
+# Ladybird browser
+Ladybird/
+
+# Flipper Devices
+Flipper Devices Inc/
+
+# Tmux plugins (should be managed separately or as submodules)
+tmux/plugins/
+
+# Wireshark recent files
+wireshark/recent
+wireshark/recent_common
+
+# Yazi backup files
+yazi/*-*
+
+# ============================================================================
+# What TO Include (examples - adjust based on your needs)
+# ============================================================================
+# Configuration files you want to track:
+# - alacritty/alacritty.toml
+# - fish/config.fish
+# - nvim/init.lua
+# - hypr/hyprland.conf
+# - waybar/config.jsonc
+# - starship.toml
+# - git/ignore (global gitignore)
+# etc.
+
+# Note: Some applications mix config and runtime data in the same directory.
+# In those cases, you may want to use more specific patterns or manually
+# stage only the config files you want to track.
