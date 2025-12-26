@@ -106,7 +106,6 @@ return {
                 rangeVariableTypes = true,
               },
               analyses = {
-                fieldalignment = true,
                 nilness = true,
                 unusedparams = true,
                 unusedwrite = true,
@@ -119,6 +118,7 @@ return {
               semanticTokens = true,
             },
           },
+          cmd = { "/Users/airmyxa/.ya/tools/v4/gopls-darwin-arm64/gopls" },
         },
         jedi_language_server = {
           cmd = { "jedi-language-server" }, -- ensure it's on PATH (pipx/pip/Mason)

@@ -10,6 +10,7 @@ return {
         json = { "prettier" },
         go = { "gofmt", "goimports", "golines" },
         cpp = { "ya_format" },
+        yaml = { "ya_format" },
       },
       formatters = {
         ya_format = {
