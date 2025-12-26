@@ -241,6 +241,98 @@ vim.api.nvim_create_autocmd("LspAttach", {
 })
 
 -- ============================================================================
+-- Custom LspInfo Command
+-- ============================================================================
+
+-- Create a custom LspInfo command to show LSP status
+vim.api.nvim_create_user_command("LspInfo", function()
+  local buf = vim.api.nvim_create_buf(false, true)
+  local clients = vim.lsp.get_clients({ bufnr = 0 })
+  local all_clients = vim.lsp.get_clients()
+
+  local lines = {
+    "LSP Client Information",
+    "======================",
+    "",
+  }
+
+  -- Show clients attached to current buffer
+  if #clients > 0 then
+    table.insert(lines, "Clients attached to current buffer:")
+    for _, client in ipairs(clients) do
+      table.insert(lines, "")
+      table.insert(lines, string.format("  Client: %s (id: %d)", client.name, client.id))
+      table.insert(lines, string.format("  Root dir: %s", client.root_dir or "N/A"))
+      table.insert(lines, string.format("  Filetypes: %s", table.concat(client.config.filetypes or {}, ", ")))
+      table.insert(lines, string.format("  Autostart: %s", client.config.autostart and "true" or "false"))
+
+      -- Show capabilities
+      if client.server_capabilities then
+        local caps = {}
+        if client.server_capabilities.completionProvider then table.insert(caps, "completion") end
+        if client.server_capabilities.hoverProvider then table.insert(caps, "hover") end
+        if client.server_capabilities.definitionProvider then table.insert(caps, "definition") end
+        if client.server_capabilities.referencesProvider then table.insert(caps, "references") end
+        if client.server_capabilities.documentFormattingProvider then table.insert(caps, "formatting") end
+        if client.server_capabilities.renameProvider then table.insert(caps, "rename") end
+        if client.server_capabilities.codeActionProvider then table.insert(caps, "code_action") end
+        table.insert(lines, string.format("  Capabilities: %s", table.concat(caps, ", ")))
+      end
+    end
+  else
+    table.insert(lines, "No clients attached to current buffer")
+  end
+
+  -- Show all active clients
+  table.insert(lines, "")
+  table.insert(lines, "")
+  table.insert(lines, "All active LSP clients:")
+  if #all_clients > 0 then
+    for _, client in ipairs(all_clients) do
+      table.insert(lines, string.format("  - %s (id: %d)", client.name, client.id))
+    end
+  else
+    table.insert(lines, "  No active LSP clients")
+  end
+
+  -- Show configured servers
+  table.insert(lines, "")
+  table.insert(lines, "")
+  table.insert(lines, "Configured LSP servers:")
+  table.insert(lines, "  - clangd")
+  table.insert(lines, "  - gopls")
+  table.insert(lines, "  - lua_ls")
+  table.insert(lines, "  - pyright")
+  table.insert(lines, "  - rust_analyzer (via rustaceanvim)")
+
+  -- Set buffer content
+  vim.api.nvim_buf_set_lines(buf, 0, -1, false, lines)
+  vim.bo[buf].modifiable = false
+  vim.bo[buf].buftype = "nofile"
+  vim.bo[buf].bufhidden = "wipe"
+  vim.bo[buf].filetype = "lspinfo"
+
+  -- Open in a floating window
+  local width = 80
+  local height = math.min(#lines + 2, vim.o.lines - 4)
+  local win = vim.api.nvim_open_win(buf, true, {
+    relative = "editor",
+    width = width,
+    height = height,
+    col = (vim.o.columns - width) / 2,
+    row = (vim.o.lines - height) / 2,
+    style = "minimal",
+    border = "rounded",
+    title = " LSP Info ",
+    title_pos = "center",
+  })
+
+  -- Set keymaps for the window
+  vim.keymap.set("n", "q", "<cmd>close<cr>", { buffer = buf, nowait = true })
+  vim.keymap.set("n", "<Esc>", "<cmd>close<cr>", { buffer = buf, nowait = true })
+end, {})
+
+-- ============================================================================
 -- Enable LSP servers
 -- ============================================================================
 

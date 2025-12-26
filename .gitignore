@@ -36,6 +36,7 @@
 **/Session Storage/
 **/SharedStorage
 **/SharedStorage-wal
+**/session/
 
 # Cookies and tokens
 **/Cookies
@@ -192,6 +193,9 @@ wireshark/recent_common
 
 # Yazi backup files
 yazi/*-*
+
+# QT
+QtProject.conf
 
 # ============================================================================
 # What TO Include (examples - adjust based on your needs)
