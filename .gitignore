@@ -197,6 +197,19 @@ yazi/*-*
 # QT
 QtProject.conf
 
+# Yandex Disk
+yandex-disk/
+
+# Fish shell universal variables (machine-specific)
+fish/fish_variables
+fish/conf.d/fish_frozen_*.fish
+
+# Darktable (photo editor - databases and runtime state)
+darktable/
+
+# Desktop autostart (machine-specific)
+autostart/
+
 # ============================================================================
 # What TO Include (examples - adjust based on your needs)
 # ============================================================================
