@@ -22,6 +22,7 @@ return {
         "flake8",
         "go-debug-adapter",
         "delve",
+        "elixir-ls",
         "gofumpt",
         "goimports",
         "goimports-reviser",

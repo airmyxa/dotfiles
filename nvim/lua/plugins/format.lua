@@ -8,6 +8,8 @@ return {
         rust = { "rustfmt", lsp_format = "fallback" },
         javascript = { "prettier", "prettier", stop_after_first = true },
         json = { "prettier" },
+        elixir = { lsp_format = "fallback" },
+        heex = { lsp_format = "fallback" },
         go = { "gofmt", "goimports", "golines" },
       },
       format_on_save = {

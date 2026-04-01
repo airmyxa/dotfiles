@@ -210,6 +210,41 @@ darktable/
 # Desktop autostart (machine-specific)
 autostart/
 
+# Game saves and data
+Wasteland3/
+
+# Antigravity (Chromium-based app - runtime data)
+Antigravity/
+antigravity-flags.conf
+
+# Google Chrome (browser data)
+google-chrome/
+
+# Wrangler (Cloudflare Workers CLI state)
+.wrangler/
+
+# EasyEffects database
+easyeffects/db/
+
+# LibreOffice (mixed config/runtime state)
+libreoffice/
+
+# Unity3D (editor data)
+unity3d/
+
+# XDG user dirs (machine-specific)
+user-dirs.dirs
+user-dirs.locale
+
+# KDE file types (machine-specific)
+filetypesrc
+
+# Obsidian runtime hash files
+obsidian/3e5148925237d69c.json
+
+# OpenCode dependencies
+opencode/node_modules/
+
 # ============================================================================
 # What TO Include (examples - adjust based on your needs)
 # ============================================================================

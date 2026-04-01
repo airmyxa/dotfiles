@@ -1,7 +1,10 @@
 return {
   {
     "nvim-treesitter/nvim-treesitter",
+    build = ":TSUpdate",
+    main = "nvim-treesitter.configs",
     opts = {
+      highlight = { enable = true },
       ensure_installed = {
         "rust",
         "go",
@@ -20,6 +23,8 @@ return {
         "vim",
         "yaml",
         "cpp",
+        "elixir",
+        "heex",
         "hurl",
       },
     },

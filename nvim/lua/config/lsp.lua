@@ -146,6 +146,21 @@ vim.lsp.config('pyright', {
   },
 })
 
+-- ElixirLS (Elixir)
+vim.lsp.config('elixirls', {
+  cmd = { "elixir-ls" },
+  filetypes = { "elixir", "eelixir", "heex", "surface" },
+  root_markers = { "mix.exs", ".git" },
+  settings = {
+    elixirLS = {
+      dialyzerEnabled = true,
+      fetchDeps = false,
+      enableTestLenses = false,
+      suggestSpecs = false,
+    },
+  },
+})
+
 -- Rust Analyzer
 -- Note: rust-analyzer is handled by rustaceanvim plugin (lua/plugins/rust.lua)
 -- No manual configuration needed here
@@ -303,6 +318,7 @@ vim.api.nvim_create_user_command("LspInfo", function()
   table.insert(lines, "  - gopls")
   table.insert(lines, "  - lua_ls")
   table.insert(lines, "  - pyright")
+  table.insert(lines, "  - elixirls")
   table.insert(lines, "  - rust_analyzer (via rustaceanvim)")
 
   -- Set buffer content
@@ -342,6 +358,7 @@ function M.setup()
   vim.lsp.enable('gopls')
   vim.lsp.enable('lua_ls')
   vim.lsp.enable('pyright')
+  vim.lsp.enable('elixirls')
   -- Note: rust_analyzer is handled by rustaceanvim plugin
 end
 
