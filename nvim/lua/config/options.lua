@@ -82,6 +82,20 @@ opt.wildmode = "longest:full,full" -- Command-line completion mode
 opt.winminwidth = 5 -- Minimum window width
 opt.wrap = false -- Disable line wrap
 
+-- Russian ЙЦУКЕН → QWERTY mapping for normal/visual/operator-pending modes.
+-- One pair per entry: vim parses each comma-separated part as a list of
+-- 2-char pairs (from→to). Specials ;,"|\ must be escaped with a backslash.
+-- Leader-chains and plugin keymaps are mirrored separately by langmapper.nvim.
+opt.langmap = vim.fn.join({
+  "ё`", "Ё~", "йq", "ЙQ", "цw", "ЦW", "уe", "УE", "кr", "КR",
+  "еt", "ЕT", "нy", "НY", "гu", "ГU", "шi", "ШI", "щo", "ЩO",
+  "зp", "ЗP", "х[", "Х{", "ъ]", "Ъ}", "фa", "ФA", "ыs", "ЫS",
+  "вd", "ВD", "аf", "АF", "пg", "ПG", "рh", "РH", "оj", "ОJ",
+  "лk", "ЛK", "дl", "ДL", "ж\\;", "Ж:", "э'", "Э\\\"",
+  "яz", "ЯZ", "чx", "ЧX", "сc", "СC", "мv", "МV", "иb", "ИB",
+  "тn", "ТN", "ьm", "ЬM", "б\\,", "Б<", "ю.", "Ю>",
+}, ",")
+
 if vim.fn.has("nvim-0.10") == 1 then
   opt.smoothscroll = true
   opt.foldmethod = "expr"

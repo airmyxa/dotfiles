@@ -22,7 +22,7 @@ vim.lsp.config('clangd', {
     "--completion-style=detailed",
     "--function-arg-placeholders",
     "--fallback-style=llvm",
-    "--query-driver=/usr/bin/clang++",
+    "--query-driver=/usr/bin/clang*,/usr/bin/gcc*,/opt/homebrew/opt/llvm/bin/clang*",
   },
   filetypes = { "c", "cpp", "objc", "objcpp", "cuda", "proto" },
   root_markers = {

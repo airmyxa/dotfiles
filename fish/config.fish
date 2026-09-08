@@ -1,23 +1,29 @@
-export PATH=$HOME/bin:/usr/local/bin:$HOME/.cargo/bin:/usr/bin:/bin:/sbin:$HOME/go/bin:$HOME/.local/share/nvm/v22.14.0/bin:/snap/bin:$PATH:
-export BAT_THEME="Catppuccin Mocha"
-export MANPAGER="nvim +Man!"
-export GOPATH=$HOME/go
-export ELECTRON_OZONE_PLATFORM_HINT=wayland
+fish_add_path /opt/homebrew/bin /opt/homebrew/sbin
+fish_add_path $HOME/bin $HOME/.local/bin $HOME/.cargo/bin $HOME/go/bin
+fish_add_path $HOME/.local/share/nvm/v22.14.0/bin
+fish_add_path $HOME/.opencode/bin
+
+set -gx BAT_THEME "Catppuccin Mocha"
+set -gx MANPAGER "nvim +Man!"
+set -gx GOPATH $HOME/go
+set -gx ELECTRON_OZONE_PLATFORM_HINT wayland
 
 if status is-interactive
-    # Commands to run in interactive sessions can go here
-    starship init fish | source
-    zoxide init fish | source
-    fzf --fish | source
+    if command -q starship
+        starship init fish | source
+    end
+    if command -q zoxide
+        zoxide init fish | source
+    end
+    if command -q fzf
+        fzf --fish | source
+    end
 end
 
-# For allacritty compatibility. Alacritty is configured to use Option as Alt
-# and motions with unicode keycodes to use it in different shells. For example
-# when entering remove shell where there is no my local configured shell.
-# But fish need to support it's keybindings also.
-bind \u001bB backward-bigword
-bind \u001bF forward-bigword
+# Alacritty compatibility: Option as Alt for unicode keybindings
+bind B backward-bigword
+bind F forward-bigword
 
-# opencode
-fish_add_path /home/airmyxa/.opencode/bin
-export PATH="$HOME/.local/bin:$PATH"
+
+# Added by Antigravity CLI installer
+set -gx PATH "/Users/axymria/.local/bin" $PATH

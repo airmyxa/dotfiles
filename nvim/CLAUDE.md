@@ -24,7 +24,7 @@ This is a Neovim configuration built on **lazy.nvim** as the plugin manager. It 
 - LSP server configs go in `lua/config/lsp.lua` using `vim.lsp.config('name', {...})` + `vim.lsp.enable('name')`
 - Mason tool installation list is in `lua/plugins/mason.lua`
 - Formatters are configured in `lua/plugins/format.lua` (conform.nvim)
-- Treesitter parsers are listed in `lua/plugins/treesitter.lua`
+- Treesitter parsers are listed in `lua/plugins/treesitter.lua` (managed by tree-sitter-manager.nvim since nvim-treesitter was archived 2026-04-03; Neovim 0.12 bundles c/lua/markdown/markdown_inline/query/vim/vimdoc — do not list them in `ensure_installed`)
 
 ## Key Keybindings
 

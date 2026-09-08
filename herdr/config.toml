@@ -1,0 +1,69 @@
+onboarding = false
+# herdr, настроенный под ~/.config/tmux/tmux.conf
+
+[theme]
+name = "catppuccin"                 # @catppuccin_flavor "mocha"
+
+[terminal]
+default_shell = "/opt/homebrew/bin/fish"   # tmux: set default-shell $(which fish)
+
+[keys]
+prefix = "ctrl+s"
+detach = "prefix+d"                 # tmux detach (дефолт herdr: prefix+q)
+new_tab = "prefix+c"                # = tmux new-window
+rename_tab = "prefix+comma"         # tmux prefix+,
+close_tab = "prefix+ampersand"      # tmux prefix+& kill-window
+previous_tab = "prefix+p"
+next_tab = "prefix+n"
+split_vertical = "prefix+v"         # панели рядом (tmux: bind | split-window -h)
+split_horizontal = "prefix+minus"   # панели стопкой (tmux: bind - split-window -v)
+close_pane = "prefix+x"             # tmux kill-pane
+zoom = "prefix+z"
+copy_mode = "prefix+["
+edit_scrollback = "prefix+shift+e"  # prefix+e отдан nvim-сайдбару
+focus_pane_left = "prefix+h"        # mode-keys vi + hjkl
+focus_pane_down = "prefix+j"
+focus_pane_up = "prefix+k"
+focus_pane_right = "prefix+l"
+last_pane = "prefix+;"
+resize_pane_left = "prefix+left"    # tmux ресайзит панель по prefix+стрелки
+resize_pane_down = "prefix+down"
+resize_pane_up = "prefix+up"
+resize_pane_right = "prefix+right"
+
+# переключение между агентами с клавиатуры
+next_agent = "prefix+shift+j"       # следующий агент вниз по сайдбару
+previous_agent = "prefix+shift+k"   # предыдущий агент вверх
+focus_agent = "prefix+alt+1..9"     # прыжок к N-му агенту
+
+# навигация в navigate-режиме (prefix+g): hjkl вместо стрелок
+navigate_workspace_up = "k"        # вверх по списку workspace
+navigate_workspace_down = "j"      # вниз по списку workspace
+navigate_pane_up = ""               # j/k отданы workspace-списку
+navigate_pane_down = ""
+navigate_pane_left = "h"
+navigate_pane_right = "l"
+
+[ui]
+tab_bar_position = "bottom"         # status-bar tmux снизу
+tab_bar_right = [
+  { type = "zoom" },
+  { type = "datetime", format = "%H:%M %d-%b-%y" },   # дефолтный tmux status-right
+]
+pane_outer_borders = false          # только внутренние разделители, без внешней рамки
+pane_gaps = false
+pane_scrollbars = false             # в tmux скроллбаров нет
+prompt_new_tab_name = false         # tmux создаёт окно сразу
+accent = "#cba6f7"                  # catppuccin mocha mauve
+
+[[keys.command]]
+key = "prefix+e"
+type = "plugin_action"
+command = "chmarax.herdr-nvim.toggle"
+description = "nvim sidebar"
+
+[[keys.command]]
+key = "prefix+f"
+type = "plugin_action"
+command = "chmarax.herdr-nvim.pick-file"
+description = "открыть файл из вывода агента"

@@ -5,6 +5,15 @@ return {
     opts_extend = { "spec" },
     opts = {
       defaults = {},
+      filter = function(mapping)
+        -- Hide russian duplicates created by langmapper.automapping
+        -- (their descriptions contain the "LM" tag). The russian
+        -- sequences still work — they just don't clutter the popup.
+        if not mapping.desc then
+          return true
+        end
+        return not (mapping.desc:match("^LM ") or mapping.desc:match(" LM "))
+      end,
       spec = {
         {
           mode = { "n", "v" },
